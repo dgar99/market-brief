@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-26T17:10:00+09:00",
+  "generated_at": "2026-04-26T18:15:36+09:00",
   "indices": [
     {
       "name": "코스피",
@@ -209,139 +209,225 @@
   "crypto": [
     {
       "name": "Bitcoin",
-      "usd": 78110.0078125,
-      "usd_change_pct": 0.6416431572994598,
-      "krw": 116106000.0,
-      "krw_change_pct": 0.35437699
+      "usd": 78041.03125,
+      "usd_change_pct": 0.5527695957194128,
+      "krw": 116035000.0,
+      "krw_change_pct": 0.29300927
     },
     {
       "name": "Ethereum",
-      "usd": 2333.219970703125,
-      "usd_change_pct": 0.6206093036752032,
-      "krw": 3469000.0,
-      "krw_change_pct": 0.40520984
+      "usd": 2331.97998046875,
+      "usd_change_pct": 0.5671344601199168,
+      "krw": 3468000.0,
+      "krw_change_pct": 0.37626627999999995
     }
   ],
-  "news": [
-    {
-      "source": "한국경제 증권",
-      "title": "여기도 AI 주식이었어?…주가 급등에 시총 70조 뚫은 회사 [종목+]",
-      "url": "https://www.hankyung.com/article/202604266952i",
-      "published": "Sun, 26 Apr 2026 14:47:59 +0900"
+  "crypto_indicators": {
+    "fear_greed": {
+      "value": 33,
+      "label": "Fear"
     },
-    {
-      "source": "한국경제 증권",
-      "title": "주가 떨어지면 어떡하려고…\"2배 빨리 벌어서 집 사자\" [노정동의 어쩌다 투자자]",
-      "url": "https://www.hankyung.com/article/2026042457146",
-      "published": "Sun, 26 Apr 2026 11:00:10 +0900"
-    },
-    {
-      "source": "한국경제 증권",
-      "title": "현대차·두산에너빌 담은 초고수…의외의 '1위' 정체는?",
-      "url": "https://www.hankyung.com/article/202604266929i",
-      "published": "Sun, 26 Apr 2026 11:00:01 +0900"
-    },
-    {
-      "source": "한국경제 증권",
-      "title": "혼돈의 美 증시…트럼프 말 한마디에 속수무책",
-      "url": "https://www.hankyung.com/article/2026042667957",
-      "published": "Sun, 26 Apr 2026 08:49:23 +0900"
-    },
-    {
-      "source": "매일경제 증권",
-      "title": "[매일경제TV] 반도체주 추가 상승 여력 분석",
-      "url": "https://www.mk.co.kr/news/culture/12027607",
-      "published": "Sun, 26 Apr 2026 16:44:56 +09:00"
-    },
-    {
-      "source": "매일경제 증권",
-      "title": "\"오 캡틴, 마이 캡틴\" 무대서 울려퍼진다",
-      "url": "https://www.mk.co.kr/news/culture/12027604",
-      "published": "Sun, 26 Apr 2026 16:44:55 +09:00"
-    },
-    {
-      "source": "매일경제 증권",
-      "title": "나는 자연인이다(27일 오후 9시 10분)",
-      "url": "https://www.mk.co.kr/news/culture/12027606",
-      "published": "Sun, 26 Apr 2026 16:44:55 +09:00"
-    },
-    {
-      "source": "매일경제 증권",
-      "title": "공장·호텔 객실서 만나는 미디어아트",
-      "url": "https://www.mk.co.kr/news/culture/12027605",
-      "published": "Sun, 26 Apr 2026 16:44:55 +09:00"
-    },
-    {
-      "source": "연합인포맥스",
-      "title": "李대통령, 백악관 총격사건에 &quot;민주주의 중대 위협, 정당화 안돼&quot;",
-      "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4411739",
-      "published": "2026-04-26 15:48:38"
-    },
-    {
-      "source": "연합인포맥스",
-      "title": "[채권-주간] 본격화된 인상 논의와 FOMC發 매파 위험",
-      "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4411737",
-      "published": "2026-04-26 15:00:16"
-    },
-    {
-      "source": "연합인포맥스",
-      "title": "[외환-주간] 월말 네고에 BOJ·FOMC 대기…이벤트 장세 지속",
-      "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4411738",
-      "published": "2026-04-26 15:00:14"
-    },
-    {
-      "source": "연합인포맥스",
-      "title": "[뉴욕환시-주간] 'G-4' 중앙은행 총출동…가장 매파적일 곳은 어디",
-      "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4411736",
-      "published": "2026-04-26 14:52:30"
-    },
-    {
-      "source": "Yahoo Finance",
-      "title": "Big Four accounting chooses AI over humans, cuts benefits & hiring",
-      "url": "https://finance.yahoo.com/sectors/technology/articles/big-four-accounting-chooses-ai-223954685.html",
-      "published": "2026-04-24T22:39:54Z"
-    },
-    {
-      "source": "Yahoo Finance",
-      "title": "Lockheed Martin CEO sends strong 2-word message on Middle East",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/lockheed-martin-ceo-sends-strong-174700950.html",
-      "published": "2026-04-25T17:47:00Z"
-    },
-    {
-      "source": "Yahoo Finance",
-      "title": "MaxLinear (MXL) Soars 85%, Hits 4-Year High",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/maxlinear-mxl-soars-85-hits-020633825.html",
-      "published": "2026-04-25T02:06:33Z"
-    },
-    {
-      "source": "Yahoo Finance",
-      "title": "Jim Cramer Says “Merck Is Terrific”",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-says-merck-terrific-032639052.html",
-      "published": "2026-04-25T03:26:39Z"
-    },
-    {
-      "source": "CNBC Top News",
-      "title": "Trump: Shooter at White House press dinner had multiple weapons, one officer shot",
-      "url": "https://www.cnbc.com/2026/04/25/trump-gunshots-white-house-correspondents-dinner.html",
-      "published": "Sun, 26 Apr 2026 06:35:25 GMT"
-    },
-    {
-      "source": "CNBC Top News",
-      "title": "Trump cancels U.S. envoy trip to Pakistan for Iran war negotiations: 'If they want to talk, all they have to do is call'",
-      "url": "https://www.cnbc.com/2026/04/25/iran-says-no-meeting-with-us-negotiators-planned-in-pakistan.html",
-      "published": "Sat, 25 Apr 2026 19:33:33 GMT"
-    },
-    {
-      "source": "CNBC Top News",
-      "title": "Will he stay or will he go? With criminal probe over, Fed Chair Powell faces big decision",
-      "url": "https://www.cnbc.com/2026/04/24/will-he-stay-or-will-he-go-with-criminal-probe-over-fed-chair-powell-faces-big-decision.html",
-      "published": "Fri, 24 Apr 2026 19:19:00 GMT"
-    },
-    {
-      "source": "CNBC Top News",
-      "title": "AI talent war: Software industry is a new target as top executives jump ship to OpenAI",
-      "url": "https://www.cnbc.com/2026/04/25/ai-talent-wars-enterprise-software-executives-openai.html",
-      "published": "Sat, 25 Apr 2026 12:43:39 GMT"
-    }
-  ]
+    "btc_dominance": 58.19,
+    "eth_dominance": 10.48
+  },
+  "news": {
+    "general": [
+      {
+        "source": "한국경제 증권",
+        "title": "스마트 개미가 탐낼 실적 유망주는 '에너지·건설·AI'",
+        "url": "https://www.hankyung.com/article/2026042673851",
+        "published": "Sun, 26 Apr 2026 18:06:49 +0900"
+      },
+      {
+        "source": "한국경제 증권",
+        "title": "美 IT·소재·유틸리티 '햇살'…에너지·헬스케어는 '먹구름'",
+        "url": "https://www.hankyung.com/article/2026042673841",
+        "published": "Sun, 26 Apr 2026 18:04:23 +0900"
+      },
+      {
+        "source": "한국경제 증권",
+        "title": "뉴욕·상하이 증시, MS·애플 등 빅테크 실적 줄줄이 공개",
+        "url": "https://www.hankyung.com/article/2026042674541",
+        "published": "Sun, 26 Apr 2026 18:01:58 +0900"
+      },
+      {
+        "source": "매일경제 증권",
+        "title": "공연장 붉게 물들인 김기민… ‘볼레로’로 무대 압도",
+        "url": "https://www.mk.co.kr/news/culture/12027746",
+        "published": "Sun, 26 Apr 2026 17:49:56 +09:00"
+      },
+      {
+        "source": "매일경제 증권",
+        "title": "[시가 있는 월요일] 나와 나",
+        "url": "https://www.mk.co.kr/news/culture/12027668",
+        "published": "Sun, 26 Apr 2026 17:25:12 +09:00"
+      },
+      {
+        "source": "매일경제 증권",
+        "title": "[매일경제TV] 반도체주 추가 상승 여력 분석",
+        "url": "https://www.mk.co.kr/news/culture/12027607",
+        "published": "Sun, 26 Apr 2026 16:44:56 +09:00"
+      },
+      {
+        "source": "연합인포맥스",
+        "title": "유가, 여전한 중동 불안에도 '최악의 폭등' 없는 이유",
+        "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4411740",
+        "published": "2026-04-26 18:06:29"
+      },
+      {
+        "source": "연합인포맥스",
+        "title": "李대통령, 백악관 총격사건에 &quot;민주주의 중대 위협, 정당화 안돼&quot;",
+        "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4411739",
+        "published": "2026-04-26 15:48:38"
+      },
+      {
+        "source": "연합인포맥스",
+        "title": "[채권-주간] 본격화된 인상 논의와 FOMC發 매파 위험",
+        "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4411737",
+        "published": "2026-04-26 15:00:16"
+      },
+      {
+        "source": "Yahoo Finance",
+        "title": "Big Four accounting chooses AI over humans, cuts benefits & hiring",
+        "url": "https://finance.yahoo.com/sectors/technology/articles/big-four-accounting-chooses-ai-223954685.html",
+        "published": "2026-04-24T22:39:54Z"
+      },
+      {
+        "source": "Yahoo Finance",
+        "title": "Lockheed Martin CEO sends strong 2-word message on Middle East",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/lockheed-martin-ceo-sends-strong-174700950.html",
+        "published": "2026-04-25T17:47:00Z"
+      },
+      {
+        "source": "Yahoo Finance",
+        "title": "Netskope Inc. (NTSK) Labelled as a High-Quality, Sub-Scale Leader",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/netskope-inc-ntsk-labelled-high-034342463.html",
+        "published": "2026-04-25T03:43:42Z"
+      },
+      {
+        "source": "CNBC Top News",
+        "title": "Trump: Shooter at White House press dinner had multiple weapons, one officer shot",
+        "url": "https://www.cnbc.com/2026/04/25/trump-gunshots-white-house-correspondents-dinner.html",
+        "published": "Sun, 26 Apr 2026 06:35:25 GMT"
+      },
+      {
+        "source": "CNBC Top News",
+        "title": "Trump cancels U.S. envoy trip to Pakistan for Iran war negotiations: 'If they want to talk, all they have to do is call'",
+        "url": "https://www.cnbc.com/2026/04/25/iran-says-no-meeting-with-us-negotiators-planned-in-pakistan.html",
+        "published": "Sat, 25 Apr 2026 19:33:33 GMT"
+      },
+      {
+        "source": "CNBC Top News",
+        "title": "Will he stay or will he go? With criminal probe over, Fed Chair Powell faces big decision",
+        "url": "https://www.cnbc.com/2026/04/24/will-he-stay-or-will-he-go-with-criminal-probe-over-fed-chair-powell-faces-big-decision.html",
+        "published": "Fri, 24 Apr 2026 19:19:00 GMT"
+      }
+    ],
+    "crypto": [
+      {
+        "source": "토큰포스트",
+        "title": "구글·파트너들 ‘소버린 클라우드’ 협업 확대…AI 확산 속 데이터 통제권 경쟁",
+        "url": "https://www.tokenpost.kr/news/tech/353526",
+        "published": "Sun, 26 Apr 2026 08:56:41 +0000"
+      },
+      {
+        "source": "토큰포스트",
+        "title": "AI/ML 이노베이션스, 미지급채무 주식 전환 마무리…내부자 인수로 특수관계인 거래 해당",
+        "url": "https://www.tokenpost.kr/news/market/353525",
+        "published": "Sun, 26 Apr 2026 08:56:20 +0000"
+      },
+      {
+        "source": "토큰포스트",
+        "title": "남아공 환관리 개편 초안…암호화폐 ‘강제 매각’ 논란 확산",
+        "url": "https://www.tokenpost.kr/news/policy/353521",
+        "published": "Sun, 26 Apr 2026 08:22:54 +0000"
+      },
+      {
+        "source": "블록미디어",
+        "title": "[주간 시장 전망] 美-이란 협상 무산⋯금리·실적·지표 앞두고 ‘눈치보기’",
+        "url": "https://www.blockmedia.co.kr/archives/1083650?utm_source=general&utm_medium=rss",
+        "published": "Sun, 26 Apr 2026 08:00:16 +0000"
+      },
+      {
+        "source": "블록미디어",
+        "title": "[거래소 격전③] ‘기관 공략’ 경험 쌓은 바이낸스…국내 시장 주도권 쥘까",
+        "url": "https://www.blockmedia.co.kr/archives/1082967?utm_source=general&utm_medium=rss",
+        "published": "Sun, 26 Apr 2026 07:30:52 +0000"
+      },
+      {
+        "source": "블록미디어",
+        "title": "[한주간 ETF 현황] 비트코인 9일 연속 순유입⋯디지털자산 ‘회복 흐름’",
+        "url": "https://www.blockmedia.co.kr/archives/1083598?utm_source=general&utm_medium=rss",
+        "published": "Sun, 26 Apr 2026 06:00:08 +0000"
+      },
+      {
+        "source": "Cointelegraph",
+        "title": "US DOJ sentences man to 70 months in prison for role in $263M scam group",
+        "url": "https://cointelegraph.com/news/doj-sentence-70-months-263m-crypto-scam?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published": "Sat, 25 Apr 2026 22:05:44 +0000"
+      },
+      {
+        "source": "Cointelegraph",
+        "title": "Bitcoiners cast doubt on the US military's understanding of the network",
+        "url": "https://cointelegraph.com/news/bitcoiners-cast-doubt-us-military-bitcoin?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published": "Sat, 25 Apr 2026 19:36:29 +0000"
+      },
+      {
+        "source": "Cointelegraph",
+        "title": "Here’s what happened in crypto today",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published": "Sat, 25 Apr 2026 14:38:50 +0000"
+      }
+    ],
+    "realestate": [
+      {
+        "source": "한국경제 부동산",
+        "title": "\"2차 공공기관 이전으로 금융도시 부산 퍼즐 완성\"",
+        "url": "https://www.hankyung.com/article/2026042674151",
+        "published": "Sun, 26 Apr 2026 18:13:48 +0900"
+      },
+      {
+        "source": "한국경제 부동산",
+        "title": "요즘 서울 '대형 오피스텔' 가격 뛴 이유가…'놀라운 결과'",
+        "url": "https://www.hankyung.com/article/2026042673981",
+        "published": "Sun, 26 Apr 2026 17:29:24 +0900"
+      },
+      {
+        "source": "한국경제 부동산",
+        "title": "반도체 호황 타고 고개드는 동탄 아파트값",
+        "url": "https://www.hankyung.com/article/2026042673961",
+        "published": "Sun, 26 Apr 2026 17:27:37 +0900"
+      },
+      {
+        "source": "한국경제 부동산",
+        "title": "수도권 경매 '중저가' 인기…15억 이하 아파트에 몰려",
+        "url": "https://www.hankyung.com/article/2026042673971",
+        "published": "Sun, 26 Apr 2026 17:27:15 +0900"
+      },
+      {
+        "source": "매일경제 부동산",
+        "title": "'공덕역 자이르네' 등 3559가구 청약",
+        "url": "https://www.mk.co.kr/news/realestate/12027600",
+        "published": "Sun, 26 Apr 2026 16:42:03 +09:00"
+      },
+      {
+        "source": "매일경제 부동산",
+        "title": "'내신 5등급제 수혜지' 명일동",
+        "url": "https://www.mk.co.kr/news/realestate/12027599",
+        "published": "Sun, 26 Apr 2026 16:42:03 +09:00"
+      },
+      {
+        "source": "매일경제 부동산",
+        "title": "부동산원 4.4만 vs 아실 1.4만 … 서울 입주물량 제각각",
+        "url": "https://www.mk.co.kr/news/realestate/12027598",
+        "published": "Sun, 26 Apr 2026 16:42:02 +09:00"
+      },
+      {
+        "source": "매일경제 부동산",
+        "title": "'반도체 훈풍' 평택의 반전…미분양 절반 뚝",
+        "url": "https://www.mk.co.kr/news/realestate/12027595",
+        "published": "Sun, 26 Apr 2026 16:42:01 +09:00"
+      }
+    ]
+  }
 }

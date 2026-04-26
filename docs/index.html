@@ -24,6 +24,11 @@
   .flat { color: #94a3b8; }
   .crypto-card .sub { font-size: 0.75rem; color: #94a3b8; margin-top: 6px; }
   .crypto-card .sub b { color: #cbd5e1; }
+  .indicators { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 10px; margin-top: 10px; }
+  .indicator { background: #1e293b; border: 1px solid #334155; border-radius: 10px; padding: 12px; text-align: center; }
+  .indicator-label { font-size: 0.75rem; color: #94a3b8; margin-bottom: 6px; }
+  .indicator-value { font-size: 1.6rem; font-weight: 700; color: #e2e8f0; }
+  .indicator-sub { font-size: 0.72rem; color: #64748b; margin-top: 4px; }
   .news-list { background: #1e293b; border-radius: 10px; border: 1px solid #334155; overflow: hidden; }
   .news-item { padding: 12px 16px; border-bottom: 1px solid #334155; transition: background 0.15s; }
   .news-item:last-child { border-bottom: none; }
@@ -91,6 +96,64 @@ function cryptoCard(c) {
     </div>`;
 }
 
+function fearGreedColor(v) {
+  if (v == null) return "#94a3b8";
+  if (v <= 24) return "#f87171";   // Extreme Fear
+  if (v <= 44) return "#fb923c";   // Fear
+  if (v <= 55) return "#fbbf24";   // Neutral
+  if (v <= 75) return "#a3e635";   // Greed
+  return "#4ade80";                 // Extreme Greed
+}
+
+function cryptoIndicatorsHtml(ci) {
+  if (!ci) return "";
+  const fg = ci.fear_greed;
+  const items = [];
+  if (fg) {
+    const c = fearGreedColor(fg.value);
+    items.push(`
+      <div class="indicator">
+        <div class="indicator-label">공포·탐욕 지수</div>
+        <div class="indicator-value" style="color:${c}">${fg.value}</div>
+        <div class="indicator-sub">${escape(fg.label)}</div>
+      </div>`);
+  }
+  if (ci.btc_dominance != null) {
+    items.push(`
+      <div class="indicator">
+        <div class="indicator-label">BTC 도미넌스</div>
+        <div class="indicator-value">${ci.btc_dominance}%</div>
+        <div class="indicator-sub">전체 시총 비중</div>
+      </div>`);
+  }
+  if (ci.eth_dominance != null) {
+    items.push(`
+      <div class="indicator">
+        <div class="indicator-label">ETH 도미넌스</div>
+        <div class="indicator-value">${ci.eth_dominance}%</div>
+        <div class="indicator-sub">전체 시총 비중</div>
+      </div>`);
+  }
+  if (!items.length) return "";
+  return `<div class="indicators">${items.join("")}</div>`;
+}
+
+function newsBlock(title, items) {
+  if (!items || !items.length) return "";
+  return `
+    <div class="section">
+      <div class="section-title">${title}</div>
+      <div class="news-list">
+        ${items.map(n => `
+          <div class="news-item">
+            <a href="${escape(n.url)}" target="_blank" rel="noopener">${escape(n.title)}</a>
+            <div class="src">${escape(n.source)}</div>
+          </div>
+        `).join("")}
+      </div>
+    </div>`;
+}
+
 function render(d) {
   const updated = (d.generated_at || "").replace("T", " ").slice(0, 16);
   document.getElementById("updated").textContent = `업데이트: ${updated} KST`;
@@ -109,6 +172,7 @@ function render(d) {
     <div class="section">
       <div class="section-title">₿ 암호화폐</div>
       <div class="grid">${d.crypto.map(cryptoCard).join("")}</div>
+      ${cryptoIndicatorsHtml(d.crypto_indicators)}
     </div>
 
     <div class="section">
@@ -122,17 +186,18 @@ function render(d) {
       ${(d.stocks_unlisted || []).map(n => `<div class="unlisted">· ${escape(n)}</div>`).join("")}
     </div>
 
-    <div class="section">
-      <div class="section-title">📰 주요 뉴스</div>
-      <div class="news-list">
-        ${(d.news || []).map(n => `
-          <div class="news-item">
-            <a href="${escape(n.url)}" target="_blank" rel="noopener">${escape(n.title)}</a>
-            <div class="src">${escape(n.source)}</div>
-          </div>
-        `).join("")}
-      </div>
-    </div>
+    ${(() => {
+      const n = d.news;
+      if (Array.isArray(n)) return newsBlock("📰 주요 뉴스", n);
+      if (n && typeof n === "object") {
+        return [
+          newsBlock("📰 주요 뉴스",     n.general),
+          newsBlock("🪙 가상자산 뉴스",  n.crypto),
+          newsBlock("🏠 부동산 뉴스",    n.realestate),
+        ].join("");
+      }
+      return "";
+    })()}
   `;
   document.getElementById("content").innerHTML = html;
 }

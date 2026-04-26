@@ -5,6 +5,7 @@ venv/
 .env
 .DS_Store
 *.xlsx
+.claude/
 
 # 다른 프로젝트 (가계부 대시보드는 별도)
 dashboard.py

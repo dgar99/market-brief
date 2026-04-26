@@ -64,12 +64,23 @@ CRYPTO_USD = [
     ("Ethereum", "ETH-USD", "KRW-ETH"),
 ]
 
-NEWS_FEEDS = [
+NEWS_FEEDS_GENERAL = [
     ("한국경제 증권",   "https://www.hankyung.com/feed/finance"),
     ("매일경제 증권",   "https://www.mk.co.kr/rss/30000023/"),
     ("연합인포맥스",    "https://news.einfomax.co.kr/rss/allArticle.xml"),
     ("Yahoo Finance",  "https://finance.yahoo.com/news/rssindex"),
     ("CNBC Top News",  "https://www.cnbc.com/id/100003114/device/rss/rss.html"),
+]
+
+NEWS_FEEDS_CRYPTO = [
+    ("토큰포스트",     "https://www.tokenpost.kr/rss"),
+    ("블록미디어",     "https://www.blockmedia.co.kr/feed"),
+    ("Cointelegraph", "https://cointelegraph.com/rss"),
+]
+
+NEWS_FEEDS_REALESTATE = [
+    ("한국경제 부동산", "https://www.hankyung.com/feed/realestate"),
+    ("매일경제 부동산", "https://www.mk.co.kr/rss/50300009/"),
 ]
 
 # ----------------------------------------------------------------------------
@@ -147,9 +158,9 @@ def _fetch_upbit(market: str) -> dict | None:
         return None
 
 
-def _fetch_news(max_per_feed: int = 4, max_total: int = 20) -> list[dict]:
+def _fetch_news(feeds: list[tuple[str, str]], max_per_feed: int = 4, max_total: int = 20) -> list[dict]:
     items: list[dict] = []
-    for source, url in NEWS_FEEDS:
+    for source, url in feeds:
         try:
             feed = feedparser.parse(url)
             for entry in feed.entries[:max_per_feed]:
@@ -162,6 +173,32 @@ def _fetch_news(max_per_feed: int = 4, max_total: int = 20) -> list[dict]:
         except Exception as e:
             print(f"[news] {source}: {e}", file=sys.stderr)
     return items[:max_total]
+
+
+def _fetch_crypto_indicators() -> dict:
+    """공포·탐욕 지수 + BTC 도미넌스."""
+    out = {}
+    try:
+        r = requests.get("https://api.alternative.me/fng/?limit=1", timeout=10)
+        r.raise_for_status()
+        d = r.json()["data"][0]
+        out["fear_greed"] = {
+            "value": int(d["value"]),
+            "label": d["value_classification"],
+        }
+    except Exception as e:
+        print(f"[fear_greed] {e}", file=sys.stderr)
+
+    try:
+        r = requests.get("https://api.coingecko.com/api/v3/global", timeout=10)
+        r.raise_for_status()
+        mc = r.json()["data"]["market_cap_percentage"]
+        out["btc_dominance"] = round(float(mc.get("btc", 0)), 2)
+        out["eth_dominance"] = round(float(mc.get("eth", 0)), 2)
+    except Exception as e:
+        print(f"[btc_dominance] {e}", file=sys.stderr)
+
+    return out
 
 
 def collect() -> dict:
@@ -196,7 +233,13 @@ def collect() -> dict:
             "krw_change_pct": krw.get("change_pct"),
         })
 
-    news = _fetch_news()
+    news = {
+        "general":    _fetch_news(NEWS_FEEDS_GENERAL,    max_per_feed=3, max_total=15),
+        "crypto":     _fetch_news(NEWS_FEEDS_CRYPTO,     max_per_feed=3, max_total=10),
+        "realestate": _fetch_news(NEWS_FEEDS_REALESTATE, max_per_feed=4, max_total=8),
+    }
+
+    crypto_indicators = _fetch_crypto_indicators()
 
     return {
         "generated_at": datetime.now(KST).isoformat(timespec="seconds"),
@@ -206,6 +249,7 @@ def collect() -> dict:
         "stocks_us": stocks_us,
         "stocks_unlisted": UNLISTED_NOTE,
         "crypto": crypto,
+        "crypto_indicators": crypto_indicators,
         "news": news,
     }
 
@@ -249,6 +293,18 @@ def build_telegram_message(d: dict) -> str:
         usdpct = _fmt_pct(x.get("usd_change_pct"))
         krwpct = _fmt_pct(x.get("krw_change_pct"))
         parts.append(f"  <b>{x['name']}</b>  ${usd} ({usdpct}) / ₩{krw} ({krwpct})")
+    ci = d.get("crypto_indicators", {})
+    if ci:
+        bits = []
+        if "fear_greed" in ci:
+            fg = ci["fear_greed"]
+            bits.append(f"공포·탐욕 <b>{fg['value']}</b> ({html.escape(fg['label'])})")
+        if "btc_dominance" in ci:
+            bits.append(f"BTC.D <b>{ci['btc_dominance']}%</b>")
+        if "eth_dominance" in ci:
+            bits.append(f"ETH.D <b>{ci['eth_dominance']}%</b>")
+        if bits:
+            parts.append("  " + " · ".join(bits))
     parts.append("")
 
     parts.append("🇰🇷 <b>국내 주식</b>")
@@ -263,14 +319,27 @@ def build_telegram_message(d: dict) -> str:
         parts.append(f"  <i>{html.escape(note)}</i>")
     parts.append("")
 
-    parts.append("📰 <b>주요 뉴스</b>")
-    for n in d["news"][:8]:
-        title = html.escape(n["title"])[:80]
-        url = html.escape(n["url"])
-        src = html.escape(n["source"])
-        parts.append(f'  · <a href="{url}">{title}</a> <i>[{src}]</i>')
+    def _news_block(title_label: str, items: list, limit: int):
+        if not items:
+            return
+        parts.append(title_label)
+        for n in items[:limit]:
+            t = html.escape(n["title"])[:80]
+            u = html.escape(n["url"])
+            s = html.escape(n["source"])
+            parts.append(f'  · <a href="{u}">{t}</a> <i>[{s}]</i>')
+        parts.append("")
 
-    return "\n".join(parts)
+    news = d.get("news", {})
+    if isinstance(news, dict):
+        _news_block("📰 <b>주요 뉴스</b>",       news.get("general", []),    6)
+        _news_block("🪙 <b>가상자산 뉴스</b>",   news.get("crypto", []),     5)
+        _news_block("🏠 <b>부동산 뉴스</b>",     news.get("realestate", []), 5)
+    else:
+        # 옛 포맷 호환
+        _news_block("📰 <b>주요 뉴스</b>", news, 8)
+
+    return "\n".join(parts).rstrip()
 
 
 def send_telegram(text: str) -> bool:
