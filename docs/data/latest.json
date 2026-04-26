@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-26T18:15:36+09:00",
+  "generated_at": "2026-04-26T18:20:29+09:00",
   "indices": [
     {
       "name": "코스피",
@@ -209,15 +209,15 @@
   "crypto": [
     {
       "name": "Bitcoin",
-      "usd": 78041.03125,
-      "usd_change_pct": 0.5527695957194128,
-      "krw": 116035000.0,
-      "krw_change_pct": 0.29300927
+      "usd": 78026.390625,
+      "usd_change_pct": 0.5339057318162519,
+      "krw": 116000000.0,
+      "krw_change_pct": 0.26275757
     },
     {
       "name": "Ethereum",
-      "usd": 2331.97998046875,
-      "usd_change_pct": 0.5671344601199168,
+      "usd": 2332.7099609375,
+      "usd_change_pct": 0.5986150236620129,
       "krw": 3468000.0,
       "krw_change_pct": 0.37626627999999995
     }
@@ -288,21 +288,21 @@
       },
       {
         "source": "Yahoo Finance",
-        "title": "Big Four accounting chooses AI over humans, cuts benefits & hiring",
-        "url": "https://finance.yahoo.com/sectors/technology/articles/big-four-accounting-chooses-ai-223954685.html",
-        "published": "2026-04-24T22:39:54Z"
-      },
-      {
-        "source": "Yahoo Finance",
         "title": "Lockheed Martin CEO sends strong 2-word message on Middle East",
         "url": "https://finance.yahoo.com/markets/stocks/articles/lockheed-martin-ceo-sends-strong-174700950.html",
         "published": "2026-04-25T17:47:00Z"
       },
       {
         "source": "Yahoo Finance",
-        "title": "Netskope Inc. (NTSK) Labelled as a High-Quality, Sub-Scale Leader",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/netskope-inc-ntsk-labelled-high-034342463.html",
-        "published": "2026-04-25T03:43:42Z"
+        "title": "Big Four accounting chooses AI over humans, cuts benefits & hiring",
+        "url": "https://finance.yahoo.com/sectors/technology/articles/big-four-accounting-chooses-ai-223954685.html",
+        "published": "2026-04-24T22:39:54Z"
+      },
+      {
+        "source": "Yahoo Finance",
+        "title": "Here's What to Expect From Take-Two Interactive's Next Earnings Report",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/heres-expect-two-interactives-next-050613697.html",
+        "published": "2026-04-25T05:06:13Z"
       },
       {
         "source": "CNBC Top News",
@@ -382,12 +382,6 @@
     "realestate": [
       {
         "source": "한국경제 부동산",
-        "title": "\"2차 공공기관 이전으로 금융도시 부산 퍼즐 완성\"",
-        "url": "https://www.hankyung.com/article/2026042674151",
-        "published": "Sun, 26 Apr 2026 18:13:48 +0900"
-      },
-      {
-        "source": "한국경제 부동산",
         "title": "요즘 서울 '대형 오피스텔' 가격 뛴 이유가…'놀라운 결과'",
         "url": "https://www.hankyung.com/article/2026042673981",
         "published": "Sun, 26 Apr 2026 17:29:24 +0900"
@@ -403,6 +397,12 @@
         "title": "수도권 경매 '중저가' 인기…15억 이하 아파트에 몰려",
         "url": "https://www.hankyung.com/article/2026042673971",
         "published": "Sun, 26 Apr 2026 17:27:15 +0900"
+      },
+      {
+        "source": "한국경제 부동산",
+        "title": "결국 '엄빠 찬스'…30대, 집 사는 데 증여·상속 자금 1조 활용",
+        "url": "https://www.hankyung.com/article/202604267286i",
+        "published": "Sun, 26 Apr 2026 16:00:41 +0900"
       },
       {
         "source": "매일경제 부동산",
