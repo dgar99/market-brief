@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>📊 시장 데이터 대시보드</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: -apple-system, 'Noto Sans KR', sans-serif; background: #0f172a; color: #e2e8f0; min-height: 100vh; padding-bottom: 40px; }
+  .header { background: linear-gradient(135deg, #1e3a5f, #0f172a); padding: 16px 20px; border-bottom: 1px solid #1e3a5f; position: sticky; top: 0; z-index: 10; }
+  .header-row { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 8px; max-width: 1400px; margin: 0 auto; }
+  .header h1 { font-size: 1.2rem; font-weight: 700; color: #60a5fa; }
+  .updated { font-size: 0.78rem; color: #64748b; }
+  .container { max-width: 1400px; margin: 0 auto; padding: 16px; }
+  .section { margin-bottom: 24px; }
+  .section-title { font-size: 0.95rem; font-weight: 700; color: #94a3b8; margin-bottom: 12px; padding-left: 4px; text-transform: uppercase; letter-spacing: 0.05em; }
+  .grid { display: grid; gap: 10px; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); }
+  .card { background: #1e293b; border-radius: 10px; padding: 14px; border: 1px solid #334155; }
+  .card .name { font-size: 0.82rem; color: #94a3b8; margin-bottom: 6px; font-weight: 500; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .card .price { font-size: 1.25rem; font-weight: 700; color: #e2e8f0; }
+  .card .change { font-size: 0.85rem; margin-top: 4px; font-weight: 600; }
+  .up { color: #4ade80; }
+  .down { color: #f87171; }
+  .flat { color: #94a3b8; }
+  .crypto-card .sub { font-size: 0.75rem; color: #94a3b8; margin-top: 6px; }
+  .crypto-card .sub b { color: #cbd5e1; }
+  .news-list { background: #1e293b; border-radius: 10px; border: 1px solid #334155; overflow: hidden; }
+  .news-item { padding: 12px 16px; border-bottom: 1px solid #334155; transition: background 0.15s; }
+  .news-item:last-child { border-bottom: none; }
+  .news-item:hover { background: #263447; }
+  .news-item a { color: #e2e8f0; text-decoration: none; font-size: 0.92rem; line-height: 1.45; display: block; }
+  .news-item .src { font-size: 0.72rem; color: #60a5fa; margin-top: 4px; font-weight: 600; }
+  .loading { text-align: center; padding: 60px 20px; color: #64748b; }
+  .error { background: #450a0a; color: #f87171; padding: 16px; border-radius: 8px; margin-bottom: 20px; }
+  .unlisted { color: #64748b; font-style: italic; padding: 6px 4px; font-size: 0.85rem; }
+  @media (max-width: 480px) {
+    .grid { grid-template-columns: repeat(2, 1fr); }
+    .card { padding: 12px 10px; }
+    .card .price { font-size: 1.05rem; }
+    .header h1 { font-size: 1rem; }
+  }
+</style>
+</head>
+<body>
+<div class="header">
+  <div class="header-row">
+    <h1>📊 시장 데이터 대시보드</h1>
+    <div class="updated" id="updated"></div>
+  </div>
+</div>
+<div class="container" id="content">
+  <div class="loading">데이터 로딩 중…</div>
+</div>
+
+<script>
+const DATA_URL = "../data/latest.json"; // GitHub Pages root에서 docs/index.html → ../data/latest.json
+// fallback for local file:// 등
+const FALLBACK_URLS = ["data/latest.json", "../data/latest.json", "./data/latest.json"];
+
+function fmt(v, decimals = 2) {
+  if (v === null || v === undefined) return "—";
+  if (Math.abs(v) >= 1000) return v.toLocaleString(undefined, { maximumFractionDigits: 0 });
+  return v.toLocaleString(undefined, { maximumFractionDigits: decimals, minimumFractionDigits: decimals });
+}
+function fmtPct(v) {
+  if (v === null || v === undefined) return "";
+  const arrow = v > 0 ? "▲" : v < 0 ? "▼" : "·";
+  const cls = v > 0 ? "up" : v < 0 ? "down" : "flat";
+  return `<span class="${cls}">${arrow} ${Math.abs(v).toFixed(2)}%</span>`;
+}
+function escape(s) {
+  return String(s ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+}
+
+function card(name, price, pct, decimals = 2) {
+  return `
+    <div class="card">
+      <div class="name">${escape(name)}</div>
+      <div class="price">${fmt(price, decimals)}</div>
+      <div class="change">${fmtPct(pct)}</div>
+    </div>`;
+}
+
+function cryptoCard(c) {
+  return `
+    <div class="card crypto-card">
+      <div class="name">${escape(c.name)}</div>
+      <div class="price">$${fmt(c.usd)}</div>
+      <div class="change">${fmtPct(c.usd_change_pct)}</div>
+      <div class="sub">업비트 <b>₩${fmt(c.krw)}</b> ${fmtPct(c.krw_change_pct)}</div>
+    </div>`;
+}
+
+function render(d) {
+  const updated = (d.generated_at || "").replace("T", " ").slice(0, 16);
+  document.getElementById("updated").textContent = `업데이트: ${updated} KST`;
+
+  const html = `
+    <div class="section">
+      <div class="section-title">📈 주요 지수</div>
+      <div class="grid">${d.indices.map(x => card(x.name, x.price, x.change_pct)).join("")}</div>
+    </div>
+
+    <div class="section">
+      <div class="section-title">💱 환율</div>
+      <div class="grid">${d.fx.map(x => card(x.name, x.price, x.change_pct, x.name.startsWith("JPY") ? 4 : 2)).join("")}</div>
+    </div>
+
+    <div class="section">
+      <div class="section-title">₿ 암호화폐</div>
+      <div class="grid">${d.crypto.map(cryptoCard).join("")}</div>
+    </div>
+
+    <div class="section">
+      <div class="section-title">🇰🇷 국내 주식</div>
+      <div class="grid">${d.stocks_kr.map(x => card(x.name, x.price, x.change_pct, 0)).join("")}</div>
+    </div>
+
+    <div class="section">
+      <div class="section-title">🇺🇸 해외 주식</div>
+      <div class="grid">${d.stocks_us.map(x => card(x.name, x.price, x.change_pct)).join("")}</div>
+      ${(d.stocks_unlisted || []).map(n => `<div class="unlisted">· ${escape(n)}</div>`).join("")}
+    </div>
+
+    <div class="section">
+      <div class="section-title">📰 주요 뉴스</div>
+      <div class="news-list">
+        ${(d.news || []).map(n => `
+          <div class="news-item">
+            <a href="${escape(n.url)}" target="_blank" rel="noopener">${escape(n.title)}</a>
+            <div class="src">${escape(n.source)}</div>
+          </div>
+        `).join("")}
+      </div>
+    </div>
+  `;
+  document.getElementById("content").innerHTML = html;
+}
+
+async function load() {
+  let lastErr = null;
+  for (const url of FALLBACK_URLS) {
+    try {
+      const r = await fetch(url + "?t=" + Date.now(), { cache: "no-store" });
+      if (!r.ok) { lastErr = `${r.status} ${r.statusText}`; continue; }
+      const data = await r.json();
+      render(data);
+      return;
+    } catch (e) { lastErr = e.message; }
+  }
+  document.getElementById("content").innerHTML =
+    `<div class="error">데이터를 불러올 수 없습니다: ${escape(lastErr)}</div>`;
+}
+
+load();
+setInterval(load, 5 * 60 * 1000); // 5분마다 새로고침
+</script>
+</body>
+</html>

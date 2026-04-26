@@ -1,0 +1,347 @@
+{
+  "generated_at": "2026-04-26T16:32:57+09:00",
+  "indices": [
+    {
+      "name": "코스피",
+      "symbol": "^KS11",
+      "price": 6475.6298828125,
+      "prev": 6475.81005859375,
+      "change": -0.18017578125,
+      "change_pct": -0.0027822894683406747,
+      "unit": "KRW"
+    },
+    {
+      "name": "코스닥",
+      "symbol": "^KQ11",
+      "price": 1203.8399658203125,
+      "prev": 1174.31005859375,
+      "change": 29.5299072265625,
+      "change_pct": 2.514660162404204,
+      "unit": "KRW"
+    },
+    {
+      "name": "나스닥",
+      "symbol": "^IXIC",
+      "price": 24836.599609375,
+      "prev": 24438.5,
+      "change": 398.099609375,
+      "change_pct": 1.628985450723244,
+      "unit": "USD"
+    },
+    {
+      "name": "S&P 500",
+      "symbol": "^GSPC",
+      "price": 7165.080078125,
+      "prev": 7108.39990234375,
+      "change": 56.68017578125,
+      "change_pct": 0.7973689797975725,
+      "unit": "USD"
+    },
+    {
+      "name": "VIX",
+      "symbol": "^VIX",
+      "price": 18.709999084472656,
+      "prev": 19.309999465942383,
+      "change": -0.6000003814697266,
+      "change_pct": -3.107200404267048,
+      "unit": ""
+    },
+    {
+      "name": "미국 10Y",
+      "symbol": "^TNX",
+      "price": 4.309999942779541,
+      "prev": 4.322999954223633,
+      "change": -0.013000011444091797,
+      "change_pct": -0.30071736252022396,
+      "unit": "%"
+    },
+    {
+      "name": "달러인덱스",
+      "symbol": "DX-Y.NYB",
+      "price": 98.51000213623047,
+      "prev": 98.80000305175781,
+      "change": -0.29000091552734375,
+      "change_pct": -0.2935231847871731,
+      "unit": ""
+    },
+    {
+      "name": "WTI 유가",
+      "symbol": "CL=F",
+      "price": 94.4000015258789,
+      "prev": 95.8499984741211,
+      "change": -1.4499969482421875,
+      "change_pct": -1.5127772262131831,
+      "unit": "USD"
+    },
+    {
+      "name": "금",
+      "symbol": "GC=F",
+      "price": 4740.89990234375,
+      "prev": 4705.10009765625,
+      "change": 35.7998046875,
+      "change_pct": 0.7608723288444584,
+      "unit": "USD"
+    }
+  ],
+  "fx": [
+    {
+      "name": "USD/KRW",
+      "symbol": "KRW=X",
+      "price": 1476.3199462890625,
+      "prev": 1479.949951171875,
+      "change": -3.6300048828125,
+      "change_pct": -0.2452788947314156
+    },
+    {
+      "name": "JPY/KRW",
+      "symbol": "JPYKRW=X",
+      "price": 9.241999626159668,
+      "prev": 9.266875267028809,
+      "change": -0.024875640869140625,
+      "change_pct": -0.26843612493250246
+    },
+    {
+      "name": "EUR/KRW",
+      "symbol": "EURKRW=X",
+      "price": 1729.9000244140625,
+      "prev": 1729.7099609375,
+      "change": 0.1900634765625,
+      "change_pct": 0.010988170320733189
+    }
+  ],
+  "stocks_kr": [
+    {
+      "name": "삼성전자",
+      "symbol": "005930.KS",
+      "price": 219500.0,
+      "prev": 224500.0,
+      "change": -5000.0,
+      "change_pct": -2.2271714922048997,
+      "currency": "KRW"
+    },
+    {
+      "name": "SK하이닉스",
+      "symbol": "000660.KS",
+      "price": 1222000.0,
+      "prev": 1225000.0,
+      "change": -3000.0,
+      "change_pct": -0.24489795918367346,
+      "currency": "KRW"
+    },
+    {
+      "name": "두산에너빌리티",
+      "symbol": "034020.KS",
+      "price": 127100.0,
+      "prev": 122600.0,
+      "change": 4500.0,
+      "change_pct": 3.6704730831973897,
+      "currency": "KRW"
+    },
+    {
+      "name": "파마리서치",
+      "symbol": "214450.KQ",
+      "price": 323000.0,
+      "prev": 310000.0,
+      "change": 13000.0,
+      "change_pct": 4.193548387096775,
+      "currency": "KRW"
+    },
+    {
+      "name": "한화에어로스페이스",
+      "symbol": "012450.KS",
+      "price": 1463000.0,
+      "prev": 1425000.0,
+      "change": 38000.0,
+      "change_pct": 2.666666666666667,
+      "currency": "KRW"
+    }
+  ],
+  "stocks_us": [
+    {
+      "name": "Google (Alphabet)",
+      "symbol": "GOOGL",
+      "price": 344.3999938964844,
+      "prev": 338.8900146484375,
+      "change": 5.509979248046875,
+      "change_pct": 1.6258901147509157,
+      "currency": "USD"
+    },
+    {
+      "name": "Meta",
+      "symbol": "META",
+      "price": 675.030029296875,
+      "prev": 659.1500244140625,
+      "change": 15.8800048828125,
+      "change_pct": 2.409163967934113,
+      "currency": "USD"
+    },
+    {
+      "name": "Tesla",
+      "symbol": "TSLA",
+      "price": 376.29998779296875,
+      "prev": 373.7200012207031,
+      "change": 2.579986572265625,
+      "change_pct": 0.6903528213203646,
+      "currency": "USD"
+    },
+    {
+      "name": "Nvidia",
+      "symbol": "NVDA",
+      "price": 208.27000427246094,
+      "prev": 199.63999938964844,
+      "change": 8.6300048828125,
+      "change_pct": 4.322783464835042,
+      "currency": "USD"
+    },
+    {
+      "name": "Micron",
+      "symbol": "MU",
+      "price": 496.7200012207031,
+      "prev": 481.7200012207031,
+      "change": 15.0,
+      "change_pct": 3.113842058039781,
+      "currency": "USD"
+    }
+  ],
+  "stocks_unlisted": [
+    "X-energy (비상장)"
+  ],
+  "crypto": [
+    {
+      "name": "Bitcoin",
+      "usd": 77988.5703125,
+      "usd_change_pct": 0.4851757610824194,
+      "krw": 116041000.0,
+      "krw_change_pct": 0.29819527
+    },
+    {
+      "name": "Ethereum",
+      "usd": 2329.68994140625,
+      "usd_change_pct": 0.4683760367002305,
+      "krw": 3466000.0,
+      "krw_change_pct": 0.31837916
+    }
+  ],
+  "news": [
+    {
+      "source": "한국경제 증권",
+      "title": "여기도 AI 주식이었어?…주가 급등에 시총 70조 뚫은 회사 [종목+]",
+      "url": "https://www.hankyung.com/article/202604266952i",
+      "published": "Sun, 26 Apr 2026 14:47:59 +0900"
+    },
+    {
+      "source": "한국경제 증권",
+      "title": "주가 떨어지면 어떡하려고…\"2배 빨리 벌어서 집 사자\" [노정동의 어쩌다 투자자]",
+      "url": "https://www.hankyung.com/article/2026042457146",
+      "published": "Sun, 26 Apr 2026 11:00:10 +0900"
+    },
+    {
+      "source": "한국경제 증권",
+      "title": "현대차·두산에너빌 담은 초고수…의외의 '1위' 정체는?",
+      "url": "https://www.hankyung.com/article/202604266929i",
+      "published": "Sun, 26 Apr 2026 11:00:01 +0900"
+    },
+    {
+      "source": "한국경제 증권",
+      "title": "혼돈의 美 증시…트럼프 말 한마디에 속수무책",
+      "url": "https://www.hankyung.com/article/2026042667957",
+      "published": "Sun, 26 Apr 2026 08:49:23 +0900"
+    },
+    {
+      "source": "매일경제 증권",
+      "title": "“내가 사면 상투, 팔면 바닥”…공시 대신 카톡·유튜브 믿었더니 [Book]",
+      "url": "https://www.mk.co.kr/news/culture/12027360",
+      "published": "Sun, 26 Apr 2026 06:24:09 +09:00"
+    },
+    {
+      "source": "매일경제 증권",
+      "title": "강한 놈이 살아남는다는 착각…속이는 놈이 40억년째 이겼다 [Book]",
+      "url": "https://www.mk.co.kr/news/culture/12027359",
+      "published": "Sun, 26 Apr 2026 06:22:07 +09:00"
+    },
+    {
+      "source": "매일경제 증권",
+      "title": "“팩트 보여줘도 음해한다 악플”…선거철 되면 내 뇌도 똑같다 [Book]",
+      "url": "https://www.mk.co.kr/news/culture/12027356",
+      "published": "Sun, 26 Apr 2026 06:06:51 +09:00"
+    },
+    {
+      "source": "매일경제 증권",
+      "title": "‘비트코인, 박수 칠 때 떠나라’…한국인은 왜 암호화폐에 푹 빠졌을까 [새책]",
+      "url": "https://www.mk.co.kr/news/stock/12027341",
+      "published": "Sat, 25 Apr 2026 22:54:35 +09:00"
+    },
+    {
+      "source": "연합인포맥스",
+      "title": "李대통령, 백악관 총격사건에 &quot;민주주의 중대 위협, 정당화 안돼&quot;",
+      "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4411739",
+      "published": "2026-04-26 15:48:38"
+    },
+    {
+      "source": "연합인포맥스",
+      "title": "[채권-주간] 본격화된 인상 논의와 FOMC發 매파 위험",
+      "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4411737",
+      "published": "2026-04-26 15:00:16"
+    },
+    {
+      "source": "연합인포맥스",
+      "title": "[외환-주간] 월말 네고에 BOJ·FOMC 대기…이벤트 장세 지속",
+      "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4411738",
+      "published": "2026-04-26 15:00:14"
+    },
+    {
+      "source": "연합인포맥스",
+      "title": "[뉴욕환시-주간] 'G-4' 중앙은행 총출동…가장 매파적일 곳은 어디",
+      "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4411736",
+      "published": "2026-04-26 14:52:30"
+    },
+    {
+      "source": "Yahoo Finance",
+      "title": "Big Four accounting chooses AI over humans, cuts benefits & hiring",
+      "url": "https://finance.yahoo.com/sectors/technology/articles/big-four-accounting-chooses-ai-223954685.html",
+      "published": "2026-04-24T22:39:54Z"
+    },
+    {
+      "source": "Yahoo Finance",
+      "title": "3 Under-the-Radar Dividend Stocks Yielding Up to 13% That Wall Street Rates a Strong Buy",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/3-under-radar-dividend-stocks-230002938.html",
+      "published": "2026-04-24T23:00:02Z"
+    },
+    {
+      "source": "Yahoo Finance",
+      "title": "Organon (OGN) Takeover Bid Climbs to $13B, Shares Soar 30.9%",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/organon-ogn-takeover-bid-climbs-020017548.html",
+      "published": "2026-04-25T02:00:17Z"
+    },
+    {
+      "source": "Yahoo Finance",
+      "title": "MaxLinear (MXL) Soars 85%, Hits 4-Year High",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/maxlinear-mxl-soars-85-hits-020633825.html",
+      "published": "2026-04-25T02:06:33Z"
+    },
+    {
+      "source": "CNBC Top News",
+      "title": "Trump: Shooter at White House press dinner had multiple weapons, one officer shot",
+      "url": "https://www.cnbc.com/2026/04/25/trump-gunshots-white-house-correspondents-dinner.html",
+      "published": "Sun, 26 Apr 2026 06:35:25 GMT"
+    },
+    {
+      "source": "CNBC Top News",
+      "title": "Trump cancels U.S. envoy trip to Pakistan for Iran war negotiations: 'If they want to talk, all they have to do is call'",
+      "url": "https://www.cnbc.com/2026/04/25/iran-says-no-meeting-with-us-negotiators-planned-in-pakistan.html",
+      "published": "Sat, 25 Apr 2026 19:33:33 GMT"
+    },
+    {
+      "source": "CNBC Top News",
+      "title": "Will he stay or will he go? With criminal probe over, Fed Chair Powell faces big decision",
+      "url": "https://www.cnbc.com/2026/04/24/will-he-stay-or-will-he-go-with-criminal-probe-over-fed-chair-powell-faces-big-decision.html",
+      "published": "Fri, 24 Apr 2026 19:19:00 GMT"
+    },
+    {
+      "source": "CNBC Top News",
+      "title": "AI talent war: Software industry is a new target as top executives jump ship to OpenAI",
+      "url": "https://www.cnbc.com/2026/04/25/ai-talent-wars-enterprise-software-executives-openai.html",
+      "published": "Sat, 25 Apr 2026 12:43:39 GMT"
+    }
+  ]
+}
