@@ -2,8 +2,9 @@ name: Daily Market Brief
 
 on:
   schedule:
-    # 매일 KST 오전 9시 = UTC 00:00
-    - cron: "0 0 * * *"
+    # 매일 KST 오전 8시 30분 = UTC 23:30 (전날)
+    # 정각(00분)은 GitHub Actions 혼잡 시간이라 30분 오프셋으로 지연 최소화
+    - cron: "30 23 * * *"
   workflow_dispatch:  # 수동 실행 허용
 
 permissions:
