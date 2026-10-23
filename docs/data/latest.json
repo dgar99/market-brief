@@ -1,85 +1,85 @@
 {
-  "generated_at": "2026-10-22T10:40:10+09:00",
+  "generated_at": "2026-10-23T10:42:31+09:00",
   "indices": [
     {
       "name": "코스피",
       "symbol": "^KS11",
-      "price": 5671.169921875,
-      "prev": 5735.66015625,
-      "change": -64.490234375,
-      "change_pct": -1.1243733522936616,
+      "price": 5415.83984375,
+      "prev": 5533.77001953125,
+      "change": -117.93017578125,
+      "change_pct": -2.1311000523155013,
       "unit": "KRW"
     },
     {
       "name": "코스닥",
       "symbol": "^KQ11",
-      "price": 784.52001953125,
-      "prev": 792.760009765625,
-      "change": -8.239990234375,
-      "change_pct": -1.0394053853462042,
+      "price": 741.1500244140625,
+      "prev": 764.0999755859375,
+      "change": -22.949951171875,
+      "change_pct": -3.0035272745920727,
       "unit": "KRW"
     },
     {
       "name": "나스닥",
       "symbol": "^IXIC",
-      "price": 26702.857421875,
-      "prev": 26424.8203125,
-      "change": 278.037109375,
-      "change_pct": 1.052181646220986,
+      "price": 26008.859375,
+      "prev": 26702.859375,
+      "change": -694.0,
+      "change_pct": -2.598972605344816,
       "unit": "USD"
     },
     {
       "name": "S&P 500",
       "symbol": "^GSPC",
-      "price": 7757.169921875,
-      "prev": 7712.56982421875,
-      "change": 44.60009765625,
-      "change_pct": 0.5782780405591699,
+      "price": 7663.43017578125,
+      "prev": 7757.169921875,
+      "change": -93.73974609375,
+      "change_pct": -1.2084271330631364,
       "unit": "USD"
     },
     {
       "name": "VIX",
       "symbol": "^VIX",
-      "price": 16.68000030517578,
-      "prev": 17.309999465942383,
-      "change": -0.6299991607666016,
-      "change_pct": -3.6395099953996644,
+      "price": 19.030000686645508,
+      "prev": 16.68000030517578,
+      "change": 2.3500003814697266,
+      "change_pct": 14.088731046009181,
       "unit": ""
     },
     {
       "name": "미국 10Y",
       "symbol": "^TNX",
-      "price": 5.145999908447266,
-      "prev": 5.117000102996826,
-      "change": 0.028999805450439453,
-      "change_pct": 0.5667345098049814,
+      "price": 4.953000068664551,
+      "prev": 5.145999908447266,
+      "change": -0.19299983978271484,
+      "change_pct": -3.750482767516214,
       "unit": "%"
     },
     {
       "name": "달러인덱스",
       "symbol": "DX-Y.NYB",
-      "price": 101.697998046875,
-      "prev": 101.7300033569336,
-      "change": -0.03200531005859375,
-      "change_pct": -0.031461033129330344,
+      "price": 101.5530014038086,
+      "prev": 101.77999877929688,
+      "change": -0.22699737548828125,
+      "change_pct": -0.2230274889082185,
       "unit": ""
     },
     {
       "name": "WTI 유가",
       "symbol": "CL=F",
-      "price": 98.20999908447266,
-      "prev": 101.79000091552734,
-      "change": -3.5800018310546875,
-      "change_pct": -3.517046663577133,
+      "price": 99.69999694824219,
+      "prev": 97.1500015258789,
+      "change": 2.5499954223632812,
+      "change_pct": 2.6248022463324525,
       "unit": "USD"
     },
     {
       "name": "금",
       "symbol": "GC=F",
-      "price": 4133.39990234375,
-      "prev": 4142.60009765625,
-      "change": -9.2001953125,
-      "change_pct": -0.22208745946067002,
+      "price": 4032.10009765625,
+      "prev": 4150.0,
+      "change": -117.89990234375,
+      "change_pct": -2.840961502259036,
       "unit": "USD"
     }
   ],
@@ -87,72 +87,72 @@
     {
       "name": "USD/KRW",
       "symbol": "KRW=X",
-      "price": 1327.0799560546875,
-      "prev": 1323.93994140625,
-      "change": 3.1400146484375,
-      "change_pct": 0.23717198569462816
+      "price": 1322.1300048828125,
+      "prev": 1325.5899658203125,
+      "change": -3.4599609375,
+      "change_pct": -0.26101290947528244
     },
     {
       "name": "JPY/KRW",
       "symbol": "JPYKRW=X",
-      "price": 8.371000289916992,
-      "prev": 8.359672546386719,
-      "change": 0.011327743530273438,
-      "change_pct": 0.1355046321182712
+      "price": 8.42199993133545,
+      "prev": 8.382224082946777,
+      "change": 0.039775848388671875,
+      "change_pct": 0.47452618774048144
     },
     {
       "name": "EUR/KRW",
       "symbol": "EURKRW=X",
-      "price": 1489.5999755859375,
-      "prev": 1485.699951171875,
-      "change": 3.9000244140625,
-      "change_pct": 0.26250417596004355
+      "price": 1482.9000244140625,
+      "prev": 1489.1300048828125,
+      "change": -6.22998046875,
+      "change_pct": -0.41836377269426317
     }
   ],
   "stocks_kr": [
     {
       "name": "삼성전자",
       "symbol": "005930.KS",
-      "price": 220250.0,
-      "prev": 223500.0,
-      "change": -3250.0,
-      "change_pct": -1.45413870246085,
+      "price": 209000.0,
+      "prev": 214500.0,
+      "change": -5500.0,
+      "change_pct": -2.564102564102564,
       "currency": "KRW"
     },
     {
       "name": "SK하이닉스",
       "symbol": "000660.KS",
-      "price": 1271000.0,
-      "prev": 1294000.0,
-      "change": -23000.0,
-      "change_pct": -1.777434312210201,
+      "price": 1218000.0,
+      "prev": 1223000.0,
+      "change": -5000.0,
+      "change_pct": -0.4088307440719542,
       "currency": "KRW"
     },
     {
       "name": "두산에너빌리티",
       "symbol": "034020.KS",
-      "price": 63000.0,
-      "prev": 63500.0,
-      "change": -500.0,
-      "change_pct": -0.7874015748031495,
+      "price": 58800.0,
+      "prev": 61600.0,
+      "change": -2800.0,
+      "change_pct": -4.545454545454546,
       "currency": "KRW"
     },
     {
       "name": "파마리서치",
       "symbol": "214450.KQ",
-      "price": 259500.0,
-      "prev": 264000.0,
-      "change": -4500.0,
-      "change_pct": -1.7045454545454544,
+      "price": 236000.0,
+      "prev": 255000.0,
+      "change": -19000.0,
+      "change_pct": -7.450980392156863,
       "currency": "KRW"
     },
     {
       "name": "한화에어로스페이스",
       "symbol": "012450.KS",
-      "price": 827000.0,
-      "prev": 814000.0,
-      "change": 13000.0,
-      "change_pct": 1.597051597051597,
+      "price": 766000.0,
+      "prev": 811000.0,
+      "change": -45000.0,
+      "change_pct": -5.548705302096177,
       "currency": "KRW"
     }
   ],
@@ -160,46 +160,46 @@
     {
       "name": "Google (Alphabet)",
       "symbol": "GOOGL",
-      "price": 334.760009765625,
-      "prev": 340.2799987792969,
-      "change": -5.519989013671875,
-      "change_pct": -1.622190264921242,
+      "price": 324.2200012207031,
+      "prev": 334.760009765625,
+      "change": -10.540008544921875,
+      "change_pct": -3.148526776630588,
       "currency": "USD"
     },
     {
       "name": "Meta",
       "symbol": "META",
-      "price": 697.52001953125,
-      "prev": 694.25,
-      "change": 3.27001953125,
-      "change_pct": 0.47101469661505224,
+      "price": 648.8499755859375,
+      "prev": 697.52001953125,
+      "change": -48.6700439453125,
+      "change_pct": -6.977583808708447,
       "currency": "USD"
     },
     {
       "name": "Tesla",
       "symbol": "TSLA",
-      "price": 386.4700012207031,
-      "prev": 373.7099914550781,
-      "change": 12.760009765625,
-      "change_pct": 3.4144149360156506,
+      "price": 374.5799865722656,
+      "prev": 386.4700012207031,
+      "change": -11.8900146484375,
+      "change_pct": -3.0765685851118407,
       "currency": "USD"
     },
     {
       "name": "Nvidia",
       "symbol": "NVDA",
-      "price": 221.97000122070312,
-      "prev": 216.47000122070312,
-      "change": 5.5,
-      "change_pct": 2.540767759497745,
+      "price": 212.2100067138672,
+      "prev": 221.97000122070312,
+      "change": -9.759994506835938,
+      "change_pct": -4.396988085399724,
       "currency": "USD"
     },
     {
       "name": "Micron",
       "symbol": "MU",
-      "price": 913.6699829101562,
-      "prev": 896.0700073242188,
-      "change": 17.5999755859375,
-      "change_pct": 1.9641295258272633,
+      "price": 856.489990234375,
+      "prev": 913.6699829101562,
+      "change": -57.17999267578125,
+      "change_pct": -6.258276373888921,
       "currency": "USD"
     }
   ],
@@ -209,164 +209,164 @@
   "crypto": [
     {
       "name": "Bitcoin",
-      "usd": 83754.4609375,
-      "usd_change_pct": 0.9807705929516162,
-      "krw": 111698000.0,
-      "krw_change_pct": -0.24915831
+      "usd": 81337.5234375,
+      "usd_change_pct": -3.183409878726357,
+      "krw": 108751000.0,
+      "krw_change_pct": -0.13957375
     },
     {
       "name": "Ethereum",
-      "usd": 2461.169921875,
-      "usd_change_pct": 0.5901429572245889,
-      "krw": 3280000.0,
-      "krw_change_pct": -0.33424491
+      "usd": 2393.830078125,
+      "usd_change_pct": -3.1138534215234435,
+      "krw": 3203000.0,
+      "krw_change_pct": 0.21902378
     }
   ],
   "crypto_indicators": {
     "fear_greed": {
-      "value": 68,
-      "label": "Greed"
+      "value": 50,
+      "label": "Neutral"
     },
-    "btc_dominance": 59.65,
-    "eth_dominance": 10.66
+    "btc_dominance": 59.47,
+    "eth_dominance": 10.61
   },
   "news": {
     "general": [
       {
         "source": "매일경제 증권",
-        "title": "“잘못하면 맞아야 한다”…서장훈 분노케한 ‘챔피언 부부’ 남편의 행동",
-        "url": "https://www.mk.co.kr/news/culture/12182576",
-        "published": "Thu, 22 Oct 2026 10:02:41 +09:00"
+        "title": "“걸그룹 1위에 골든벨”...이수만, 고깃집 손님 전원 밥값 쐈다",
+        "url": "https://www.mk.co.kr/news/culture/12183888",
+        "published": "Fri, 23 Oct 2026 10:30:20 +09:00"
       },
       {
         "source": "매일경제 증권",
-        "title": "아시아 관광시장 공략…엑스엘에이트 ‘이벤트캣 도슨트’ 공개",
-        "url": "https://www.mk.co.kr/news/it/12182572",
-        "published": "Thu, 22 Oct 2026 09:56:20 +09:00"
+        "title": "중국 검색어 1위 할 만…이다해 만삭인데 배가 ‘쏙’, 태아 건강은?",
+        "url": "https://www.mk.co.kr/news/culture/12183883",
+        "published": "Fri, 23 Oct 2026 10:27:56 +09:00"
       },
       {
         "source": "매일경제 증권",
-        "title": "‘흑백요리사’ 정지선, 유튜브 돌연 중단…이유도 안 밝혔다",
-        "url": "https://www.mk.co.kr/news/culture/12182546",
-        "published": "Thu, 22 Oct 2026 09:39:49 +09:00"
+        "title": "“IMF 때 첫 달 매출 6천만원”…정준하, 주식·코인 대신 사업 왜?",
+        "url": "https://www.mk.co.kr/news/culture/12183856",
+        "published": "Fri, 23 Oct 2026 10:02:21 +09:00"
       },
       {
         "source": "연합인포맥스",
-        "title": "이억원 &quot;금융사 퇴임 임원 고문 관행, 개선 방안 검토&quot;",
-        "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4440528",
-        "published": "2026-10-22 10:35:47"
+        "title": "세아베스틸지주, 3Q 영업익 3% 뛴 280억 전망…내년 신사업 결실 기대↑",
+        "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4440802",
+        "published": "2026-10-23 10:39:07"
       },
       {
         "source": "연합인포맥스",
-        "title": "종감에서도 고개숙인 금융당국 수장들…&quot;단종레 사태, 무거운 마음&quot;",
-        "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4440527",
-        "published": "2026-10-22 10:34:44"
+        "title": "원화 강세가 뒤집은 국채 성적표…달러 수익률 3.29%로 亞 2위",
+        "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4440801",
+        "published": "2026-10-23 10:38:57"
       },
       {
         "source": "연합인포맥스",
-        "title": "인천공항, 해외진출 '지분투자 개발'로 확대…중앙아시아 정조준",
-        "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4440526",
-        "published": "2026-10-22 10:33:55"
+        "title": "'5%'에서 엇갈린 美·佛 10년 금리…&quot;결국 둘 다 오를 것&quot;",
+        "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4440800",
+        "published": "2026-10-23 10:36:05"
       },
       {
         "source": "CNBC Top News",
-        "title": "James Talarico fires back at Elon Musk in Texas Senate race feud",
-        "url": "https://www.cnbc.com/2026/10/22/james-talarico-elon-musk-ken-paxton-texas-senate-race.html",
-        "published": "Thu, 22 Oct 2026 01:21:10 GMT"
+        "title": "SK Hynix shares slide after chipmaker scraps Solidigm IPO plans",
+        "url": "https://www.cnbc.com/2026/10/23/sk-hynix-solidigm-ipo-.html",
+        "published": "Fri, 23 Oct 2026 00:53:36 GMT"
       },
       {
         "source": "CNBC Top News",
-        "title": "Critical web security flaws spark global alarm as Google, OpenAI and Amazon respond",
-        "url": "https://www.cnbc.com/2026/10/22/php-google-openai-and-amazon-cyber.html",
-        "published": "Thu, 22 Oct 2026 01:05:15 GMT"
+        "title": "Wealthy Chinese move offshore money to U.S. banks as Beijing’s tax net widens",
+        "url": "https://www.cnbc.com/2026/10/23/wealthy-chinese-tax-offshore-trusts-capital-control-.html",
+        "published": "Fri, 23 Oct 2026 01:23:12 GMT"
       },
       {
         "source": "CNBC Top News",
-        "title": "Sovereign wealth funds' China and Hong Kong investments surge 190% after a bruising slump",
-        "url": "https://www.cnbc.com/2026/10/22/sovereign-wealth-funds-china-hong-kong.html",
-        "published": "Thu, 22 Oct 2026 00:47:38 GMT"
+        "title": "Trump asked Musk to lift Starlink slowdown, WSJ reports",
+        "url": "https://www.cnbc.com/2026/10/22/trump-musk-starlink-ukraine.html",
+        "published": "Thu, 22 Oct 2026 21:02:07 GMT"
       }
     ],
     "crypto": [
       {
         "source": "토큰포스트",
-        "title": "스페이스X 시간외 8.86% 상승…나스닥 선물 0.43% 동반 강세",
-        "url": "https://www.tokenpost.kr/news/market/425692",
-        "published": "Thu, 22 Oct 2026 01:23:59 +0000"
+        "title": "스테이블코인 시총 3050억 달러 감소…아발란체 2.83% 증가",
+        "url": "https://www.tokenpost.kr/news/insights/426152",
+        "published": "Fri, 23 Oct 2026 01:41:01 +0000"
       },
       {
         "source": "토큰포스트",
-        "title": "리플, SEC 가상자산 규정안 지지 의견…증권성 기준 명확화 요구",
-        "url": "https://www.tokenpost.kr/news/policy/425693",
-        "published": "Thu, 22 Oct 2026 01:23:58 +0000"
+        "title": "디파이 TVL 898억 달러 전주比 0.6% 증가…하이퍼리퀴드 L1·아크 증가세",
+        "url": "https://www.tokenpost.kr/news/insights/426146",
+        "published": "Fri, 23 Oct 2026 01:33:18 +0000"
       },
       {
         "source": "토큰포스트",
-        "title": "비트코인 옵션 비중 연초 50%서 60% 턱밑으로…IBIT 옵션 350억달러",
-        "url": "https://www.tokenpost.kr/news/cryptocurrency/425691",
-        "published": "Thu, 22 Oct 2026 01:22:20 +0000"
+        "title": "나스닥 22일 2.6% 하락…메타 7.0%·테슬라 3.1% 내려",
+        "url": "https://www.tokenpost.kr/news/market/426136",
+        "published": "Fri, 23 Oct 2026 01:22:47 +0000"
       },
       {
         "source": "블록미디어",
-        "title": "지캐시, 11월 네트워크 업그레이드 앞두고 급등…1700달러 가능할까",
-        "url": "https://www.blockmedia.co.kr/archives/1154716?utm_source=general&utm_medium=rss",
-        "published": "Thu, 22 Oct 2026 01:15:22 +0000"
+        "title": "니어프로토콜 7% 급락…AI 생태계 확장에도 기술 신뢰성 논란 확산",
+        "url": "https://www.blockmedia.co.kr/archives/1155274?utm_source=general&utm_medium=rss",
+        "published": "Fri, 23 Oct 2026 01:36:37 +0000"
       },
       {
         "source": "블록미디어",
-        "title": "XRP, 11월 말 4달러 전망 나왔다…7차례 막힌 저항선 돌파가 관건",
-        "url": "https://www.blockmedia.co.kr/archives/1154711?utm_source=general&utm_medium=rss",
-        "published": "Thu, 22 Oct 2026 00:51:50 +0000"
+        "title": "XRP 4% 하락…고래 투자자 거래소 입금 7개월 만에 최대",
+        "url": "https://www.blockmedia.co.kr/archives/1155256?utm_source=general&utm_medium=rss",
+        "published": "Fri, 23 Oct 2026 01:07:34 +0000"
       },
       {
         "source": "블록미디어",
-        "title": "[개장시황] 코스피, 전날 3%대 급등 후 숨고르기…5700선 등락",
-        "url": "https://www.blockmedia.co.kr/archives/1154700?utm_source=general&utm_medium=rss",
-        "published": "Thu, 22 Oct 2026 00:20:14 +0000"
+        "title": "테더, 볼리비아 핀테크 ‘페소’에 투자…남미 USDT 결제 시장 공략 본격화",
+        "url": "https://www.blockmedia.co.kr/archives/1155270?utm_source=general&utm_medium=rss",
+        "published": "Fri, 23 Oct 2026 00:43:43 +0000"
       },
       {
         "source": "Cointelegraph",
-        "title": "PHP Foundation admits ‘structural failure’ delayed critical security fix",
-        "url": "https://cointelegraph.com/news/php-foundation-admits-structural-failure-delayed-critical-security-fix?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "published": "Thu, 22 Oct 2026 00:44:00 +0000"
+        "title": "Switzerland approves first spot Bitcoin ETF for retail investors",
+        "url": "https://cointelegraph.com/news/switzerland-approves-first-spot-bitcoin-etf-for-retail-investors?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published": "Fri, 23 Oct 2026 00:59:35 +0000"
       },
       {
         "source": "Cointelegraph",
-        "title": "American Bankers Association: OCC’s GENIUS rules ‘undermine’ US Congress",
-        "url": "https://cointelegraph.com/news/american-bankers-association-occ-genius-rules-stablecoins?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "published": "Wed, 21 Oct 2026 21:53:48 +0000"
+        "title": "Pentagon bans US forces from using military info to bet in prediction markets",
+        "url": "https://cointelegraph.com/news/pentagon-bans-us-forces-from-using-military-info-to-bet-in-prediction-markets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published": "Thu, 22 Oct 2026 23:50:42 +0000"
       },
       {
         "source": "Cointelegraph",
-        "title": "Tether backs Bolivian fintech bringing USDT payments to food delivery and banking",
-        "url": "https://cointelegraph.com/news/tether-backs-bolivian-fintech-bringing-usdt-payments-to-food-delivery-and-banking?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "published": "Wed, 21 Oct 2026 20:26:07 +0000"
+        "title": "New DeepSeek ban in US, Swiss-Asia crypto ties deepen: Asia Express",
+        "url": "https://cointelegraph.com/magazine/new-deepseek-ban-in-us-swiss-asia-crypto-ties-deepen-asia-express?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published": "Thu, 22 Oct 2026 22:50:22 +0000"
       }
     ],
     "realestate": [
       {
         "source": "매일경제 부동산",
-        "title": "“당첨되면 40억 대박”…반포 원펜타스, 역대급 ‘줍줍’ 4가구 풀린다",
-        "url": "https://www.mk.co.kr/news/realestate/12182600",
-        "published": "Thu, 22 Oct 2026 10:28:54 +09:00"
+        "title": "DL이앤씨, 광명 하안주공9단지에 ‘e편한세상 광명리버마크’ 제안",
+        "url": "https://www.mk.co.kr/news/realestate/12183893",
+        "published": "Fri, 23 Oct 2026 10:35:39 +09:00"
       },
       {
         "source": "매일경제 부동산",
-        "title": "“살던 아파트에서 전문 요양을”…삼성물산, 에이지테크로 실버 시장 공략",
-        "url": "https://www.mk.co.kr/news/realestate/12182597",
-        "published": "Thu, 22 Oct 2026 10:26:11 +09:00"
+        "title": "‘정부부처 이전’ 세종…아파트 3채 중 1채 ‘입주 10년 초과’",
+        "url": "https://www.mk.co.kr/news/realestate/12183892",
+        "published": "Fri, 23 Oct 2026 10:35:27 +09:00"
       },
       {
         "source": "매일경제 부동산",
-        "title": "“토지 매매계약 99.9%”…‘오송역 헬로우시티’ 23일부터 조합원 모집",
-        "url": "https://www.mk.co.kr/news/realestate/12182595",
-        "published": "Thu, 22 Oct 2026 10:25:39 +09:00"
+        "title": "“구로디지털단지역 직통연결 ”…23일 ‘GD메트로타워’ 23일 견본주택 개관",
+        "url": "https://www.mk.co.kr/news/realestate/12183880",
+        "published": "Fri, 23 Oct 2026 10:25:59 +09:00"
       },
       {
         "source": "매일경제 부동산",
-        "title": "“560만원이던 공사비가 1300만원으로”…서울 정비사업 몸살",
-        "url": "https://www.mk.co.kr/news/realestate/12182566",
-        "published": "Thu, 22 Oct 2026 09:52:12 +09:00"
+        "title": "“시세 90%라니 진짜예요?”…경기남부 세입자들 난리 난 ‘든든전세’",
+        "url": "https://www.mk.co.kr/news/realestate/12183846",
+        "published": "Fri, 23 Oct 2026 09:52:43 +09:00"
       }
     ]
   }
