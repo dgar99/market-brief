@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T10:45:30+09:00",
+  "generated_at": "2026-10-25T10:22:27+09:00",
   "indices": [
     {
       "name": "코스피",
@@ -22,10 +22,10 @@
     {
       "name": "나스닥",
       "symbol": "^IXIC",
-      "price": 25955.341796875,
+      "price": 25955.33984375,
       "prev": 26008.859375,
-      "change": -53.517578125,
-      "change_pct": -0.2057667249200543,
+      "change": -53.51953125,
+      "change_pct": -0.20577423438047251,
       "unit": "USD"
     },
     {
@@ -58,28 +58,28 @@
     {
       "name": "달러인덱스",
       "symbol": "DX-Y.NYB",
-      "price": 101.75199890136719,
+      "price": 101.80999755859375,
       "prev": 101.61000061035156,
-      "change": 0.141998291015625,
-      "change_pct": 0.13974834185874305,
+      "change": 0.1999969482421875,
+      "change_pct": 0.1968280159835101,
       "unit": ""
     },
     {
       "name": "WTI 유가",
       "symbol": "CL=F",
-      "price": 103.44000244140625,
+      "price": 103.2699966430664,
       "prev": 99.47000122070312,
-      "change": 3.970001220703125,
-      "change_pct": 3.9911542897184877,
+      "change": 3.7999954223632812,
+      "change_pct": 3.820242661837197,
       "unit": "USD"
     },
     {
       "name": "금",
       "symbol": "GC=F",
-      "price": 4010.0,
+      "price": 4007.89990234375,
       "prev": 4060.39990234375,
-      "change": -50.39990234375,
-      "change_pct": -1.241254643776789,
+      "change": -52.5,
+      "change_pct": -1.2929760925690073,
       "unit": "USD"
     }
   ],
@@ -87,10 +87,10 @@
     {
       "name": "USD/KRW",
       "symbol": "KRW=X",
-      "price": 1323.6600341796875,
-      "prev": 1325.5899658203125,
-      "change": -1.929931640625,
-      "change_pct": -0.14559039298631865
+      "price": 1325.4000244140625,
+      "prev": 1325.989990234375,
+      "change": -0.5899658203125,
+      "change_pct": -0.04449247917838511
     },
     {
       "name": "JPY/KRW",
@@ -209,120 +209,120 @@
   "crypto": [
     {
       "name": "Bitcoin",
-      "usd": 80738.4296875,
-      "usd_change_pct": -0.7052608580271835,
-      "krw": 108388000.0,
-      "krw_change_pct": -0.45095932
+      "usd": 80677.4921875,
+      "usd_change_pct": -0.48929915270504565,
+      "krw": 108619000.0,
+      "krw_change_pct": 0.09399449
     },
     {
       "name": "Ethereum",
-      "usd": 2375.6201171875,
-      "usd_change_pct": -0.442927650375784,
-      "krw": 3189000.0,
-      "krw_change_pct": -0.40599625
+      "usd": 2353.52001953125,
+      "usd_change_pct": -1.2817273945050276,
+      "krw": 3165000.0,
+      "krw_change_pct": -0.06315125
     }
   ],
   "crypto_indicators": {
     "fear_greed": {
-      "value": 51,
+      "value": 54,
       "label": "Neutral"
     },
     "btc_dominance": 59.48,
-    "eth_dominance": 10.63
+    "eth_dominance": 10.54
   },
   "news": {
     "general": [
       {
         "source": "매일경제 증권",
-        "title": "“주상욱 효자 아니라서 좋아”…차예련 깜짝 고백 왜?",
-        "url": "https://www.mk.co.kr/news/culture/12184559",
-        "published": "Fri, 23 Oct 2026 21:31:00 +09:00"
+        "title": "“금만 쟁여 놓으면 부자 될 줄 알았다”…욕심에 무너진 인류의 역사 [Book]",
+        "url": "https://www.mk.co.kr/news/culture/12184910",
+        "published": "Sun, 25 Oct 2026 06:05:07 +09:00"
       },
       {
         "source": "매일경제 증권",
-        "title": "'출판 1위' 문학동네 우선협상자에 다우키움",
-        "url": "https://www.mk.co.kr/news/culture/12184494",
-        "published": "Fri, 23 Oct 2026 19:19:30 +09:00"
+        "title": "“세상이 변했는데 예술로 먹고살 수 있나요”…100년전에도 똑같이 말했다 [Book]",
+        "url": "https://www.mk.co.kr/news/culture/12184909",
+        "published": "Sun, 25 Oct 2026 06:04:57 +09:00"
       },
       {
         "source": "매일경제 증권",
-        "title": "왕태석 한국일보 기자, ‘빛으로 쓴 편지’ 출간",
-        "url": "https://www.mk.co.kr/news/society/12184466",
-        "published": "Fri, 23 Oct 2026 18:24:22 +09:00"
+        "title": "대통령을 ‘엿 먹인’ 언론…8년 전쟁끝에 사주는 무릎 꿇었다 [Book]",
+        "url": "https://www.mk.co.kr/news/culture/12184908",
+        "published": "Sun, 25 Oct 2026 06:04:34 +09:00"
       },
       {
         "source": "연합인포맥스",
-        "title": "서울 아파트 평균 임대료, 월 317만원꼴…&quot;고금리에 월세화 가속&quot;",
-        "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4440954",
-        "published": "2026-10-24 09:37:22"
+        "title": "LG전자, 獨 '쉴링'에 상업용 세탁가전 공급",
+        "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4440974",
+        "published": "2026-10-25 10:00:08"
       },
       {
         "source": "연합인포맥스",
-        "title": "[세종은 지금] '경제부총리 휘하 아니다' 선 그은 기획처",
-        "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4440953",
-        "published": "2026-10-24 09:00:03"
+        "title": "주병기 &quot;한화 조사정보 유출 감찰 중…향후 결과 발표&quot;",
+        "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4440972",
+        "published": "2026-10-25 09:51:11"
       },
       {
         "source": "연합인포맥스",
-        "title": "국채선물, 美 국채 약세 속 혼조…10년물 8틱↑",
-        "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4440952",
-        "published": "2026-10-24 08:37:37"
+        "title": "[현장칼럼] 호미로 막을 것을 가래로 막는 LG유플러스",
+        "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4440971",
+        "published": "2026-10-25 09:50:39"
       },
       {
         "source": "CNBC Top News",
-        "title": "Trump dropping some Canada tariffs but 'replacing' them with other products",
-        "url": "https://www.cnbc.com/2026/10/23/trump-tariffs-canada-susan-collins.html",
-        "published": "Fri, 23 Oct 2026 21:26:59 GMT"
+        "title": "Amgen says drug combo cuts risk of death by 58% in patients with aggressive lung cancer",
+        "url": "https://www.cnbc.com/2026/10/24/amgen-imdelltra-lung-cancer-data.html",
+        "published": "Sat, 24 Oct 2026 14:30:01 GMT"
       },
       {
         "source": "CNBC Top News",
-        "title": "Turmoil hits AI build-out as neoclouds face pressure, credit risks mount and Solidigm pulls IPO",
-        "url": "https://www.cnbc.com/2026/10/23/ai-turmoil-neoclouds-struggle-credit-risks-jump-solidigm-pulls-ipo.html",
-        "published": "Fri, 23 Oct 2026 22:49:04 GMT"
+        "title": "Democrats, voting-rights groups challenge Trump's bid to block Alaska Senate certification",
+        "url": "https://www.cnbc.com/2026/10/24/alaska-senate-doj-certification-lawsuit.html",
+        "published": "Sat, 24 Oct 2026 19:57:24 GMT"
       },
       {
         "source": "CNBC Top News",
-        "title": "Trump's executive order targets mortgage insurance, refinance costs. What it means for borrowers",
-        "url": "https://www.cnbc.com/2026/10/23/trump-mortgage-executive-order-costs.html",
-        "published": "Fri, 23 Oct 2026 22:27:06 GMT"
+        "title": "Why popular airplanes are getting scrapped years early",
+        "url": "https://www.cnbc.com/2026/10/24/spirit-airlines-planes-scrapped-engine-shortage.html",
+        "published": "Sat, 24 Oct 2026 15:18:30 GMT"
       }
     ],
     "crypto": [
       {
         "source": "토큰포스트",
-        "title": "아비트럼 개발자 공회, 체인 순수익 2%·경매 수익 3% 배분 규정 공개",
-        "url": "https://www.tokenpost.kr/news/blockchain/426812",
-        "published": "Sat, 24 Oct 2026 01:44:53 +0000"
+        "title": "미 천연가스 주간 15% 하락…유럽 TTF는 2022년 이후 최고",
+        "url": "https://www.tokenpost.kr/news/economy/427081",
+        "published": "Sun, 25 Oct 2026 01:12:09 +0000"
       },
       {
         "source": "토큰포스트",
-        "title": "코인베이스, 미 중간선거 기부금 5770만달러로 11위",
-        "url": "https://www.tokenpost.kr/news/policy/426811",
-        "published": "Sat, 24 Oct 2026 01:44:35 +0000"
+        "title": "니어프로토콜 24시간 10.53% 하락…4.30달러가 단기 기준선",
+        "url": "https://www.tokenpost.kr/news/cryptocurrency/427080",
+        "published": "Sun, 25 Oct 2026 01:09:09 +0000"
       },
       {
         "source": "토큰포스트",
-        "title": "미·일 원유 운임 8100만달러…배럴당 40.50달러",
-        "url": "https://www.tokenpost.kr/news/economy/426810",
-        "published": "Sat, 24 Oct 2026 01:30:17 +0000"
+        "title": "399만 건…미 기존주택 거래, 전년보다 2.2% 감소",
+        "url": "https://www.tokenpost.kr/news/economy/427079",
+        "published": "Sun, 25 Oct 2026 01:05:38 +0000"
       },
       {
         "source": "블록미디어",
-        "title": "공황장에 비트코인도 흔들…2027년 금융위기 경고등",
-        "url": "https://www.blockmedia.co.kr/archives/1155679?utm_source=general&utm_medium=rss",
-        "published": "Sat, 24 Oct 2026 01:26:57 +0000"
+        "title": "아서 헤이즈, ENA 추가 매도…ENA 가격은 반등",
+        "url": "https://www.blockmedia.co.kr/archives/1155868?utm_source=general&utm_medium=rss",
+        "published": "Sun, 25 Oct 2026 01:02:26 +0000"
       },
       {
         "source": "블록미디어",
-        "title": "트론, 월간 수수료 2340만달러…테더 의존은 변수",
-        "url": "https://www.blockmedia.co.kr/archives/1155675?utm_source=general&utm_medium=rss",
-        "published": "Sat, 24 Oct 2026 00:36:09 +0000"
+        "title": "10월 비트코인 ‘업토버’ 마지막 기회, 연준 금리동결 · 기술주 실적 주시",
+        "url": "https://www.blockmedia.co.kr/archives/1155865?utm_source=general&utm_medium=rss",
+        "published": "Sun, 25 Oct 2026 00:29:55 +0000"
       },
       {
         "source": "블록미디어",
-        "title": "[속보] 비트코인 8만달러선으로 후퇴",
-        "url": "https://www.blockmedia.co.kr/archives/1155671?utm_source=general&utm_medium=rss",
-        "published": "Sat, 24 Oct 2026 00:19:25 +0000"
+        "title": "그레이스케일이 꼽은 AI 수혜 코인 3종…성적은 제각각",
+        "url": "https://www.blockmedia.co.kr/archives/1155863?utm_source=general&utm_medium=rss",
+        "published": "Sun, 25 Oct 2026 00:17:50 +0000"
       },
       {
         "source": "Cointelegraph",
@@ -346,27 +346,27 @@
     "realestate": [
       {
         "source": "매일경제 부동산",
-        "title": "“제값 받고 못팔바에야 자식에게”…서울 다소유자들, 매매 대신 증여 급증",
-        "url": "https://www.mk.co.kr/news/realestate/12184075",
-        "published": "Sat, 24 Oct 2026 08:00:00 +09:00"
+        "title": "“부담금 누가 낼 건데?”…반포 신축 아파트값 갈라놓은 ‘7억 변수’",
+        "url": "https://www.mk.co.kr/news/realestate/12184948",
+        "published": "Sun, 25 Oct 2026 09:47:10 +09:00"
       },
       {
         "source": "매일경제 부동산",
-        "title": "“유엔본부급 빌딩 기증합니다” 약속한 회장님…조건 단 하나라는데",
-        "url": "https://www.mk.co.kr/news/realestate/12184723",
-        "published": "Sat, 24 Oct 2026 07:39:33 +09:00"
+        "title": "“요즘 50억 이하 빌딩만 팔려요”…서울 꼬마빌딩 시장도 ‘외곽 장세’ 재편",
+        "url": "https://www.mk.co.kr/news/realestate/12184941",
+        "published": "Sun, 25 Oct 2026 09:12:04 +09:00"
       },
       {
         "source": "매일경제 부동산",
-        "title": "[매경플러스 리바이벌] 오세훈 시대 서울 부동산 다시 읽기",
-        "url": "https://www.mk.co.kr/news/realestate/12184196",
-        "published": "Sat, 24 Oct 2026 05:00:00 +09:00"
+        "title": "“브랜드 문주·외관 디자인 특화”…‘계양신도시 카이브 유보라’·브랜드 상업시설 ‘시간’ 인파 북적",
+        "url": "https://www.mk.co.kr/news/realestate/12184850",
+        "published": "Sat, 24 Oct 2026 17:53:16 +09:00"
       },
       {
         "source": "매일경제 부동산",
-        "title": "이젠 입지보다 ‘동의율’ 먼저 … 도공복 대해부",
-        "url": "https://www.mk.co.kr/news/realestate/12184289",
-        "published": "Sat, 24 Oct 2026 05:00:00 +09:00"
+        "title": "강북구 미아동 삼성래미안트리베라2단지 58.99㎡ 10억 3300만원… 최근 3년 신고가 [MAI부동산]",
+        "url": "https://www.mk.co.kr/news/realestate/12184783",
+        "published": "Sat, 24 Oct 2026 13:14:19 +09:00"
       }
     ]
   }
