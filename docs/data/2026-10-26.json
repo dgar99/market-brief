@@ -1,0 +1,373 @@
+{
+  "generated_at": "2026-10-26T10:26:23+09:00",
+  "indices": [
+    {
+      "name": "코스피",
+      "symbol": "^KS11",
+      "price": 5486.4599609375,
+      "prev": 5550.2998046875,
+      "change": -63.83984375,
+      "change_pct": -1.1502053221716804,
+      "unit": "KRW"
+    },
+    {
+      "name": "코스닥",
+      "symbol": "^KQ11",
+      "price": 735.4500122070312,
+      "prev": 751.6900024414062,
+      "change": -16.239990234375,
+      "change_pct": -2.1604637791681816,
+      "unit": "KRW"
+    },
+    {
+      "name": "나스닥",
+      "symbol": "^IXIC",
+      "price": 25955.33984375,
+      "prev": 26008.859375,
+      "change": -53.51953125,
+      "change_pct": -0.20577423438047251,
+      "unit": "USD"
+    },
+    {
+      "name": "S&P 500",
+      "symbol": "^GSPC",
+      "price": 7623.68017578125,
+      "prev": 7663.43017578125,
+      "change": -39.75,
+      "change_pct": -0.5186972294159081,
+      "unit": "USD"
+    },
+    {
+      "name": "VIX",
+      "symbol": "^VIX",
+      "price": 19.450000762939453,
+      "prev": 19.030000686645508,
+      "change": 0.4200000762939453,
+      "change_pct": 2.2070418346788845,
+      "unit": ""
+    },
+    {
+      "name": "미국 10Y",
+      "symbol": "^TNX",
+      "price": 4.98799991607666,
+      "prev": 4.953000068664551,
+      "change": 0.034999847412109375,
+      "change_pct": 0.7066393484130555,
+      "unit": "%"
+    },
+    {
+      "name": "달러인덱스",
+      "symbol": "DX-Y.NYB",
+      "price": 101.62200164794922,
+      "prev": 101.80999755859375,
+      "change": -0.18799591064453125,
+      "change_pct": -0.18465368348165978,
+      "unit": ""
+    },
+    {
+      "name": "WTI 유가",
+      "symbol": "CL=F",
+      "price": 101.38999938964844,
+      "prev": 103.2699966430664,
+      "change": -1.8799972534179688,
+      "change_pct": -1.8204680105837812,
+      "unit": "USD"
+    },
+    {
+      "name": "금",
+      "symbol": "GC=F",
+      "price": 4013.5,
+      "prev": 4007.89990234375,
+      "change": 5.60009765625,
+      "change_pct": 0.1397264850096471,
+      "unit": "USD"
+    }
+  ],
+  "fx": [
+    {
+      "name": "USD/KRW",
+      "symbol": "KRW=X",
+      "price": 1324.280029296875,
+      "prev": 1325.989990234375,
+      "change": -1.7099609375,
+      "change_pct": -0.128957303606625
+    },
+    {
+      "name": "JPY/KRW",
+      "symbol": "JPYKRW=X",
+      "price": 8.414999961853027,
+      "prev": 8.473135948181152,
+      "change": -0.058135986328125,
+      "change_pct": -0.6861212505460212
+    },
+    {
+      "name": "EUR/KRW",
+      "symbol": "EURKRW=X",
+      "price": 1484.0,
+      "prev": 1485.47998046875,
+      "change": -1.47998046875,
+      "change_pct": -0.09962978217202129
+    }
+  ],
+  "stocks_kr": [
+    {
+      "name": "삼성전자",
+      "symbol": "005930.KS",
+      "price": 213250.0,
+      "prev": 215500.0,
+      "change": -2250.0,
+      "change_pct": -1.0440835266821344,
+      "currency": "KRW"
+    },
+    {
+      "name": "SK하이닉스",
+      "symbol": "000660.KS",
+      "price": 1282000.0,
+      "prev": 1277000.0,
+      "change": 5000.0,
+      "change_pct": 0.39154267815191857,
+      "currency": "KRW"
+    },
+    {
+      "name": "두산에너빌리티",
+      "symbol": "034020.KS",
+      "price": 57500.0,
+      "prev": 59400.0,
+      "change": -1900.0,
+      "change_pct": -3.1986531986531985,
+      "currency": "KRW"
+    },
+    {
+      "name": "파마리서치",
+      "symbol": "214450.KQ",
+      "price": 233500.0,
+      "prev": 239500.0,
+      "change": -6000.0,
+      "change_pct": -2.5052192066805845,
+      "currency": "KRW"
+    },
+    {
+      "name": "한화에어로스페이스",
+      "symbol": "012450.KS",
+      "price": 755000.0,
+      "prev": 792000.0,
+      "change": -37000.0,
+      "change_pct": -4.671717171717172,
+      "currency": "KRW"
+    }
+  ],
+  "stocks_us": [
+    {
+      "name": "Google (Alphabet)",
+      "symbol": "GOOGL",
+      "price": 320.2099914550781,
+      "prev": 324.2200012207031,
+      "change": -4.010009765625,
+      "change_pct": -1.23681751604686,
+      "currency": "USD"
+    },
+    {
+      "name": "Meta",
+      "symbol": "META",
+      "price": 642.6199951171875,
+      "prev": 648.8499755859375,
+      "change": -6.22998046875,
+      "change_pct": -0.9601573095728452,
+      "currency": "USD"
+    },
+    {
+      "name": "Tesla",
+      "symbol": "TSLA",
+      "price": 372.2200012207031,
+      "prev": 374.5799865722656,
+      "change": -2.3599853515625,
+      "change_pct": -0.6300350889427995,
+      "currency": "USD"
+    },
+    {
+      "name": "Nvidia",
+      "symbol": "NVDA",
+      "price": 210.9600067138672,
+      "prev": 212.2100067138672,
+      "change": -1.25,
+      "change_pct": -0.5890391406873825,
+      "currency": "USD"
+    },
+    {
+      "name": "Micron",
+      "symbol": "MU",
+      "price": 877.5499877929688,
+      "prev": 856.489990234375,
+      "change": 21.05999755859375,
+      "change_pct": 2.45887258446894,
+      "currency": "USD"
+    }
+  ],
+  "stocks_unlisted": [
+    "X-energy (비상장)"
+  ],
+  "crypto": [
+    {
+      "name": "Bitcoin",
+      "usd": 80082.9609375,
+      "usd_change_pct": -0.8761822944221223,
+      "krw": 107233000.0,
+      "krw_change_pct": 0.021453220000000002
+    },
+    {
+      "name": "Ethereum",
+      "usd": 2328.409912109375,
+      "usd_change_pct": -1.169110504409022,
+      "krw": 3118000.0,
+      "krw_change_pct": -0.03206156
+    }
+  ],
+  "crypto_indicators": {
+    "fear_greed": {
+      "value": 50,
+      "label": "Neutral"
+    },
+    "btc_dominance": 59.99,
+    "eth_dominance": 10.58
+  },
+  "news": {
+    "general": [
+      {
+        "source": "매일경제 증권",
+        "title": "엄마 최진실 따라 턱 괴고 활짝 웃었다…결혼 후 최준희가 찾아간 곳",
+        "url": "https://www.mk.co.kr/news/culture/12185455",
+        "published": "Mon, 26 Oct 2026 10:00:04 +09:00"
+      },
+      {
+        "source": "매일경제 증권",
+        "title": "“며칠만 하면 볼록 나온다”…5세 연하 남편 김우빈, 신민아 이것 부럽다는데",
+        "url": "https://www.mk.co.kr/news/culture/12185438",
+        "published": "Mon, 26 Oct 2026 09:40:51 +09:00"
+      },
+      {
+        "source": "매일경제 증권",
+        "title": "전도연, 한국 최초 ‘오스카 주연상’ 후보 되나…외신 ‘가능한 사랑’ 주목",
+        "url": "https://www.mk.co.kr/news/culture/12185386",
+        "published": "Mon, 26 Oct 2026 09:02:20 +09:00"
+      },
+      {
+        "source": "연합인포맥스",
+        "title": "[뉴욕은 지금] ECB가 프랑스 국채에 개입하는 트리거",
+        "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4441064",
+        "published": "2026-10-26 10:18:46"
+      },
+      {
+        "source": "연합인포맥스",
+        "title": "[인사] 기획예산처",
+        "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4441063",
+        "published": "2026-10-26 10:15:47"
+      },
+      {
+        "source": "연합인포맥스",
+        "title": "신한운용, 국내 종합운용사 첫 ICGN 가입…수탁자활동 강화",
+        "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4441062",
+        "published": "2026-10-26 10:04:29"
+      },
+      {
+        "source": "CNBC Top News",
+        "title": "Brazil's Lula wins presidential election in runoff vote",
+        "url": "https://www.cnbc.com/2026/10/26/brazil-lula-win-presidential-election-runoff-vote.html",
+        "published": "Mon, 26 Oct 2026 01:10:46 GMT"
+      },
+      {
+        "source": "CNBC Top News",
+        "title": "SpaceX closes $40 billion debt deal for AI chips, Elon Musk says",
+        "url": "https://www.cnbc.com/2026/10/26/spacex-closes-40-billion-debt-deal-for-ai-chips-elon-musk-.html",
+        "published": "Mon, 26 Oct 2026 00:37:51 GMT"
+      },
+      {
+        "source": "CNBC Top News",
+        "title": "‘Ticking time bomb’: The world's pension funds face an ageing crisis",
+        "url": "https://www.cnbc.com/2026/10/26/pension-funds-ageing-crisis-risk-investment.html",
+        "published": "Mon, 26 Oct 2026 00:03:20 GMT"
+      }
+    ],
+    "crypto": [
+      {
+        "source": "토큰포스트",
+        "title": "[크립토 딜북] 이달 누적 7억3010만 달러...스트라이브에 주간 투자금 71% 집중",
+        "url": "https://www.tokenpost.kr/news/insights/427282",
+        "published": "Mon, 26 Oct 2026 01:18:18 +0000"
+      },
+      {
+        "source": "토큰포스트",
+        "title": "연준 29일 오전 4시 금리 결정…GDP·PCE도 발표",
+        "url": "https://www.tokenpost.kr/news/economy/427281",
+        "published": "Mon, 26 Oct 2026 01:17:35 +0000"
+      },
+      {
+        "source": "토큰포스트",
+        "title": "[주간 토큰 언락] 이번 주 약 2억1200만 달러 언락 예정...FF·EIGEN 등",
+        "url": "https://www.tokenpost.kr/news/insights/427280",
+        "published": "Mon, 26 Oct 2026 01:17:35 +0000"
+      },
+      {
+        "source": "블록미디어",
+        "title": "마이클 세일러 “스트래티지 핵심 사업은 비트코인 아닌 디지털 신용상품”",
+        "url": "https://www.blockmedia.co.kr/archives/1156008?utm_source=general&utm_medium=rss",
+        "published": "Mon, 26 Oct 2026 00:58:54 +0000"
+      },
+      {
+        "source": "블록미디어",
+        "title": "[속보] 비트코인 8만달러 하회",
+        "url": "https://www.blockmedia.co.kr/archives/1155995?utm_source=general&utm_medium=rss",
+        "published": "Mon, 26 Oct 2026 00:24:25 +0000"
+      },
+      {
+        "source": "블록미디어",
+        "title": "[개장시황] 코스피, 실적 경계감 속 약보합…장 초반 5500선 등락",
+        "url": "https://www.blockmedia.co.kr/archives/1155979?utm_source=general&utm_medium=rss",
+        "published": "Mon, 26 Oct 2026 00:20:33 +0000"
+      },
+      {
+        "source": "Cointelegraph",
+        "title": "Standard Chartered-led Anchorpoint says it’s not rushing retail stablecoin",
+        "url": "https://cointelegraph.com/news/standard-chartered-led-anchorpoint-says-its-not-rushing-retail-stablecoin?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published": "Mon, 26 Oct 2026 00:13:29 +0000"
+      },
+      {
+        "source": "Cointelegraph",
+        "title": "AI agents help rescue ETH’s Glamsterdam fork, ‘Steal My Bitcoin’ site: Hodler’s Digest",
+        "url": "https://cointelegraph.com/magazine/ai-agents-help-rescue-eths-glamsterdam-fork-steal-my-bitcoin-site-hodlers-digest?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published": "Sun, 25 Oct 2026 22:48:40 +0000"
+      },
+      {
+        "source": "Cointelegraph",
+        "title": "ECB official sees digital euro as key to protecting EU ‘sovereignty’",
+        "url": "https://cointelegraph.com/news/ecb-official-sees-digital-euro-tool-to-protect-eu-sovereignty?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published": "Sun, 25 Oct 2026 15:11:00 +0000"
+      }
+    ],
+    "realestate": [
+      {
+        "source": "매일경제 부동산",
+        "title": "“공기정화·집중환기 결합”…현대건설, 건강한 주거환경 위해 맞춤형 공기질 관리",
+        "url": "https://www.mk.co.kr/news/realestate/12185466",
+        "published": "Mon, 26 Oct 2026 10:10:42 +09:00"
+      },
+      {
+        "source": "매일경제 부동산",
+        "title": "“이번 청약이 정말 막차다”…내년까지 입주물량 없는 세종 경쟁률 ‘후끈’",
+        "url": "https://www.mk.co.kr/news/realestate/12185462",
+        "published": "Mon, 26 Oct 2026 10:03:30 +09:00"
+      },
+      {
+        "source": "매일경제 부동산",
+        "title": "영등포구 대림현대3차 43.92㎡ 9억 3700만원… 최근 3년 신고가 [MAI부동산]",
+        "url": "https://www.mk.co.kr/news/realestate/12185390",
+        "published": "Mon, 26 Oct 2026 09:13:23 +09:00"
+      },
+      {
+        "source": "매일경제 부동산",
+        "title": "“명품 아파트로 완성”…대보건설, 2107억 규모 대전 가오동 1구역 재건축 수주",
+        "url": "https://www.mk.co.kr/news/realestate/12185372",
+        "published": "Mon, 26 Oct 2026 08:41:17 +09:00"
+      }
+    ]
+  }
+}
