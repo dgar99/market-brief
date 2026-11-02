@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-11-01T11:23:50+09:00",
+  "generated_at": "2026-11-02T11:38:52+09:00",
   "indices": [
     {
       "name": "코스피",
       "symbol": "^KS11",
-      "price": 5730.740234375,
-      "prev": 5937.66015625,
-      "change": -206.919921875,
-      "change_pct": -3.4848731053964994,
+      "price": 5821.7099609375,
+      "prev": 5730.740234375,
+      "change": 90.9697265625,
+      "change_pct": 1.5873992336423053,
       "unit": "KRW"
     },
     {
       "name": "코스닥",
       "symbol": "^KQ11",
-      "price": 724.3800048828125,
-      "prev": 753.22998046875,
-      "change": -28.8499755859375,
-      "change_pct": -3.8301682532582664,
+      "price": 731.1799926757812,
+      "prev": 724.3800048828125,
+      "change": 6.79998779296875,
+      "change_pct": 0.9387321222469174,
       "unit": "KRW"
     },
     {
@@ -58,28 +58,28 @@
     {
       "name": "달러인덱스",
       "symbol": "DX-Y.NYB",
-      "price": 101.87999725341797,
-      "prev": 102.04000091552734,
-      "change": -0.160003662109375,
-      "change_pct": -0.1568048418990433,
+      "price": 101.9739990234375,
+      "prev": 101.87999725341797,
+      "change": 0.09400177001953125,
+      "change_pct": 0.0922671501312566,
       "unit": ""
     },
     {
       "name": "WTI 유가",
       "symbol": "CL=F",
-      "price": 104.12000274658203,
-      "prev": 102.0,
-      "change": 2.1200027465820312,
-      "change_pct": 2.078434065276501,
+      "price": 101.16999816894531,
+      "prev": 104.12000274658203,
+      "change": -2.9500045776367188,
+      "change_pct": -2.833273626410425,
       "unit": "USD"
     },
     {
       "name": "금",
       "symbol": "GC=F",
-      "price": 3898.89990234375,
-      "prev": 4031.39990234375,
-      "change": -132.5,
-      "change_pct": -3.286699489251066,
+      "price": 3920.39990234375,
+      "prev": 3898.89990234375,
+      "change": 21.5,
+      "change_pct": 0.551437598771789,
       "unit": "USD"
     }
   ],
@@ -87,72 +87,72 @@
     {
       "name": "USD/KRW",
       "symbol": "KRW=X",
-      "price": 1335.0999755859375,
+      "price": 1342.6800537109375,
       "prev": 1337.97998046875,
-      "change": -2.8800048828125,
-      "change_pct": -0.21525022233916496
+      "change": 4.7000732421875,
+      "change_pct": 0.3512812830383956
     },
     {
       "name": "JPY/KRW",
       "symbol": "JPYKRW=X",
-      "price": 8.473393440246582,
-      "prev": 8.49288272857666,
-      "change": -0.019489288330078125,
-      "change_pct": -0.2294778928773031
+      "price": 8.482999801635742,
+      "prev": 8.473393440246582,
+      "change": 0.009606361389160156,
+      "change_pct": 0.11337088802618617
     },
     {
       "name": "EUR/KRW",
       "symbol": "EURKRW=X",
-      "price": 1495.9000244140625,
-      "prev": 1494.4599609375,
-      "change": 1.4400634765625,
-      "change_pct": 0.09636012433943857
+      "price": 1498.699951171875,
+      "prev": 1495.9000244140625,
+      "change": 2.7999267578125,
+      "change_pct": 0.18717338806844522
     }
   ],
   "stocks_kr": [
     {
       "name": "삼성전자",
       "symbol": "005930.KS",
-      "price": 225000.0,
-      "prev": 232000.0,
-      "change": -7000.0,
-      "change_pct": -3.0172413793103448,
+      "price": 226000.0,
+      "prev": 225000.0,
+      "change": 1000.0,
+      "change_pct": 0.4444444444444444,
       "currency": "KRW"
     },
     {
       "name": "SK하이닉스",
       "symbol": "000660.KS",
-      "price": 1418000.0,
-      "prev": 1526000.0,
-      "change": -108000.0,
-      "change_pct": -7.077326343381389,
+      "price": 1456000.0,
+      "prev": 1418000.0,
+      "change": 38000.0,
+      "change_pct": 2.6798307475317347,
       "currency": "KRW"
     },
     {
       "name": "두산에너빌리티",
       "symbol": "034020.KS",
-      "price": 54800.0,
-      "prev": 56700.0,
-      "change": -1900.0,
-      "change_pct": -3.3509700176366843,
+      "price": 55600.0,
+      "prev": 54800.0,
+      "change": 800.0,
+      "change_pct": 1.4598540145985401,
       "currency": "KRW"
     },
     {
       "name": "파마리서치",
       "symbol": "214450.KQ",
-      "price": 212000.0,
-      "prev": 222500.0,
-      "change": -10500.0,
-      "change_pct": -4.719101123595506,
+      "price": 221000.0,
+      "prev": 212000.0,
+      "change": 9000.0,
+      "change_pct": 4.245283018867925,
       "currency": "KRW"
     },
     {
       "name": "한화에어로스페이스",
       "symbol": "012450.KS",
-      "price": 696000.0,
-      "prev": 760000.0,
-      "change": -64000.0,
-      "change_pct": -8.421052631578947,
+      "price": 744000.0,
+      "prev": 696000.0,
+      "change": 48000.0,
+      "change_pct": 6.896551724137931,
       "currency": "KRW"
     }
   ],
@@ -209,164 +209,164 @@
   "crypto": [
     {
       "name": "Bitcoin",
-      "usd": 77589.03125,
-      "usd_change_pct": 0.5062556602722437,
-      "krw": 104653000.0,
-      "krw_change_pct": 0.17037569
+      "usd": 78299.5234375,
+      "usd_change_pct": 1.116776947688215,
+      "krw": 105452000.0,
+      "krw_change_pct": 0.57415355
     },
     {
       "name": "Ethereum",
-      "usd": 2263.22998046875,
-      "usd_change_pct": 0.9895135379278661,
-      "krw": 3054000.0,
-      "krw_change_pct": 0.5266622799999999
+      "usd": 2289.06005859375,
+      "usd_change_pct": 1.611909500712834,
+      "krw": 3081000.0,
+      "krw_change_pct": 1.18226601
     }
   ],
   "crypto_indicators": {
     "fear_greed": {
-      "value": 34,
+      "value": 37,
       "label": "Fear"
     },
-    "btc_dominance": 59.25,
-    "eth_dominance": 10.49
+    "btc_dominance": 60.01,
+    "eth_dominance": 10.65
   },
   "news": {
     "general": [
       {
         "source": "매일경제 증권",
-        "title": "“평소 어떤 사람인지 아니까”…백지영, ‘마약 파문’ 정석원과 이혼 안 한 이유",
-        "url": "https://www.mk.co.kr/news/culture/12192563",
-        "published": "Sun, 01 Nov 2026 09:17:35 +09:00"
+        "title": "[AI Nexus] AI에게 일을 잘 시키는 방법",
+        "url": "https://www.mk.co.kr/news/culture/12193334",
+        "published": "Mon, 02 Nov 2026 11:20:59 +09:00"
       },
       {
         "source": "매일경제 증권",
-        "title": "‘전원일기 아버지’ 최불암 빈소 못 간 김용건…“子 하정우 결혼 앞둬”",
-        "url": "https://www.mk.co.kr/news/culture/12192546",
-        "published": "Sun, 01 Nov 2026 08:35:07 +09:00"
+        "title": "[Mind Note] 부정적 생각과 감정을 짧게 하기…쉽지만 어려운 ‘감사와 사랑’",
+        "url": "https://www.mk.co.kr/news/culture/12193321",
+        "published": "Mon, 02 Nov 2026 11:14:02 +09:00"
       },
       {
         "source": "매일경제 증권",
-        "title": "서울대 어린이병원 1억 기부하더니…한지민, 이번엔 후원회 홍보대사",
-        "url": "https://www.mk.co.kr/news/culture/12192542",
-        "published": "Sun, 01 Nov 2026 08:20:18 +09:00"
+        "title": "‘국민 아버지’ 고 최불암, 마지막 작별…김혜수·김경란 눈물로 배웅",
+        "url": "https://www.mk.co.kr/news/culture/12193245",
+        "published": "Mon, 02 Nov 2026 10:31:44 +09:00"
       },
       {
         "source": "연합인포맥스",
-        "title": "연 수출 1조달러 눈앞…반도체, 2개월 연속 500억달러 넘겨(종합)",
-        "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4442355",
-        "published": "2026-11-01 09:50:26"
+        "title": "與 &quot;예산안, 모두의 성장으로 대전환 약속…반드시 법정 시한 내 통과&quot;",
+        "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4442511",
+        "published": "2026-11-02 11:35:51"
       },
       {
         "source": "연합인포맥스",
-        "title": "10월 수출 1천153억달러…2개월 연속 1천100억달러 넘겨(상보)",
-        "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4442354",
-        "published": "2026-11-01 09:12:04"
+        "title": "포스코퓨처엠, 3Q '깜짝 실적'…배터리·양극재 견인(종합)",
+        "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4442510",
+        "published": "2026-11-02 11:32:20"
       },
       {
         "source": "연합인포맥스",
-        "title": "10월 반도체 수출, 2개월 연속 500억달러 넘겨…역대 2위",
-        "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4442353",
-        "published": "2026-11-01 09:06:30"
+        "title": "[인사] 라이나생명",
+        "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4442509",
+        "published": "2026-11-02 11:31:29"
       },
       {
         "source": "CNBC Top News",
-        "title": "Binance says 90% of $6.3 billion hack losses are now covered, plans to resume withdrawals Sunday",
-        "url": "https://www.cnbc.com/2026/10/31/binance-hack-asset-coverage-withdrawals.html",
-        "published": "Sat, 31 Oct 2026 22:27:56 GMT"
+        "title": "Binance sees $3.64 billion in net outflows as withdrawals resume after massive hack",
+        "url": "https://www.cnbc.com/2026/11/02/binance-outflow-hack-bitcoin.html",
+        "published": "Mon, 02 Nov 2026 00:11:37 GMT"
       },
       {
         "source": "CNBC Top News",
-        "title": "Trump defamation suit against Murdoch, WSJ over Epstein letter dismissed with prejudice",
-        "url": "https://www.cnbc.com/2026/10/31/trump-murdoch-wsj-epstein-defamation-lawsuit-dismissed.html",
-        "published": "Sat, 31 Oct 2026 23:56:40 GMT"
+        "title": "Democratic Rep. Stevens endorses Republican Rogers over rival El-Sayed in Michigan Senate election",
+        "url": "https://www.cnbc.com/2026/11/01/michigan-senate-stevens-rogers-endorsement-el-sayed.html",
+        "published": "Sun, 01 Nov 2026 21:06:42 GMT"
       },
       {
         "source": "CNBC Top News",
-        "title": "‘Pop-up’ super PACs pour $637 million into 2026 midterm races",
-        "url": "https://www.cnbc.com/2026/10/31/2026-midterm-election-super-pacs-donor-disclosure.html",
-        "published": "Sat, 31 Oct 2026 12:00:01 GMT"
+        "title": "Judge dismisses Alaska Senate election lawsuit; DOJ vows appeal",
+        "url": "https://www.cnbc.com/2026/11/01/alaska-senate-doj-lawsuit-dismissed-sullivan-peltola.html",
+        "published": "Sun, 01 Nov 2026 23:17:57 GMT"
       }
     ],
     "crypto": [
       {
         "source": "토큰포스트",
-        "title": "체인링크 ETF ‘6월 첫 승인’ 주장, 기존 상품 일정과 어긋나",
-        "url": "https://www.tokenpost.kr/news/cryptocurrency/430786",
-        "published": "Sun, 01 Nov 2026 02:22:48 +0000"
+        "title": "세단 8개, 미국 Z세대 보험 견적 상위 10개 차종",
+        "url": "https://www.tokenpost.kr/news/general/431114",
+        "published": "Mon, 02 Nov 2026 02:37:06 +0000"
       },
       {
         "source": "토큰포스트",
-        "title": "10월 수출 93.7% 증가…반도체 259.4% 늘어",
-        "url": "https://www.tokenpost.kr/news/economy/430785",
-        "published": "Sun, 01 Nov 2026 02:18:01 +0000"
+        "title": "허이, 사적 친분만으로 바이낸스 상장 결정 못 한다고 밝혀",
+        "url": "https://www.tokenpost.kr/news/cryptocurrency/431112",
+        "published": "Mon, 02 Nov 2026 02:34:23 +0000"
       },
       {
         "source": "토큰포스트",
-        "title": "ETH/BTC 24시간 0.79% 상승…이더리움, 비트코인 상승률 앞서",
-        "url": "https://www.tokenpost.kr/news/cryptocurrency/430784",
-        "published": "Sun, 01 Nov 2026 02:17:24 +0000"
+        "title": "[온체인 주식선물] 현대차, 정규장 종가보다 0.71% 웃돈",
+        "url": "https://www.tokenpost.kr/news/insights/431111",
+        "published": "Mon, 02 Nov 2026 02:33:21 +0000"
       },
       {
         "source": "블록미디어",
-        "title": "이더리움 2360달러 돌파시 바이낸스 해커는 어떻게 나올까? 에이브 청산의 역설",
-        "url": "https://www.blockmedia.co.kr/archives/1159623?utm_source=general&utm_medium=rss",
-        "published": "Sun, 01 Nov 2026 02:05:31 +0000"
+        "title": "40년 월가 베테랑도 ‘절레절레’… “이렇게 많은 변동성 한번에 닥친 건 처음”",
+        "url": "https://www.blockmedia.co.kr/archives/1159833?utm_source=general&utm_medium=rss",
+        "published": "Mon, 02 Nov 2026 02:30:36 +0000"
       },
       {
         "source": "블록미디어",
-        "title": "이더리움 ETF, 23거래일 연속 순유출…출시 이후 최장",
-        "url": "https://www.blockmedia.co.kr/archives/1159627?utm_source=general&utm_medium=rss",
-        "published": "Sun, 01 Nov 2026 01:38:45 +0000"
+        "title": "BTC페이 서버 “즉시 가동 중단하라”…온라인 지갑 자금 탈취 신고",
+        "url": "https://www.blockmedia.co.kr/archives/1159800?utm_source=general&utm_medium=rss",
+        "published": "Mon, 02 Nov 2026 01:11:38 +0000"
       },
       {
         "source": "블록미디어",
-        "title": "칼시, 민주당 상원 장악 확률 72%로 평가",
-        "url": "https://www.blockmedia.co.kr/archives/1159628?utm_source=general&utm_medium=rss",
-        "published": "Sun, 01 Nov 2026 01:33:15 +0000"
+        "title": "크레이머 “나스닥 추가 하락 가능성…3대 변수 주시해야”",
+        "url": "https://www.blockmedia.co.kr/archives/1159748?utm_source=general&utm_medium=rss",
+        "published": "Mon, 02 Nov 2026 00:57:09 +0000"
       },
       {
         "source": "Cointelegraph",
-        "title": "Binance says 90% of stolen assets replenished, targets Sunday withdrawals",
-        "url": "https://cointelegraph.com/news/binance-hack-90-percent-replenished?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "published": "Sat, 31 Oct 2026 15:36:01 +0000"
+        "title": "THORChain halts swaps after block reorg bug, slowing Binance hackers",
+        "url": "https://cointelegraph.com/news/thorchain-halts-swaps-after-block-reorg-bug-slowing-binance-hackers?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published": "Mon, 02 Nov 2026 01:51:48 +0000"
       },
       {
         "source": "Cointelegraph",
-        "title": "Bitcoin held up better than expected after Binance hack, Strive CEO says",
-        "url": "https://cointelegraph.com/markets/bitcoin-binance-hack-strive-ceo?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "published": "Sat, 31 Oct 2026 15:26:46 +0000"
+        "title": "Binance net outflows surge to $5.8B as withdrawals resume after record hack",
+        "url": "https://cointelegraph.com/news/binance-net-outflows-surge-to-58b-as-withdrawals-resume-after-record-hack?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published": "Sun, 01 Nov 2026 23:59:27 +0000"
       },
       {
         "source": "Cointelegraph",
-        "title": "Here’s what happened in crypto today",
-        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "published": "Sat, 31 Oct 2026 15:09:55 +0000"
+        "title": "Billions flee Binance on reopen, THORChain founder opposes coin freeze: Hodler’s Digest",
+        "url": "https://cointelegraph.com/magazine/36b-flees-binance-on-reopen-thorchain-co-founder-opposes-coin-freeze-hodlers-digest?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published": "Sun, 01 Nov 2026 23:09:13 +0000"
       }
     ],
     "realestate": [
       {
         "source": "매일경제 부동산",
-        "title": "“공원 앞·학교 옆 첫 라이프 스테이 몰”…계양신도시 생활밀착형 상업시설 보니",
-        "url": "https://www.mk.co.kr/news/realestate/12191993",
-        "published": "Sun, 01 Nov 2026 09:30:00 +09:00"
+        "title": "서울시, 소규모정비사업장 과도한 수수료 뜯은 건설사에 ‘엄정 대응’",
+        "url": "https://www.mk.co.kr/news/realestate/12193228",
+        "published": "Mon, 02 Nov 2026 11:15:00 +09:00"
       },
       {
         "source": "매일경제 부동산",
-        "title": "“그린벨트 왕창 풀어 집짓는다는데”…실수요자 반기는데, 왜 시끄럽지?",
-        "url": "https://www.mk.co.kr/news/realestate/12192560",
-        "published": "Sun, 01 Nov 2026 09:15:31 +09:00"
+        "title": "“계양AX파크 조성 호재”…반도건설 ‘계양신도시 카이브 유보라’ 2일 특공·3일 1순위 청약",
+        "url": "https://www.mk.co.kr/news/realestate/12193290",
+        "published": "Mon, 02 Nov 2026 10:59:39 +09:00"
       },
       {
         "source": "매일경제 부동산",
-        "title": "산과 들을 지나 만난 그곳 … 오래된 건물보다 오래된 인연이 보였다",
-        "url": "https://www.mk.co.kr/news/realestate/12191450",
-        "published": "Sun, 01 Nov 2026 05:00:00 +09:00"
+        "title": "중장년 인생2막, 집을 다시 설계하라 [신철호의 실전 인생2막]",
+        "url": "https://www.mk.co.kr/news/realestate/12193256",
+        "published": "Mon, 02 Nov 2026 10:36:12 +09:00"
       },
       {
         "source": "매일경제 부동산",
-        "title": "“건물 외벽 빌려주고 돈 벌어볼까”…동대문·영등포도 ‘초대형 전광판’ 추진",
-        "url": "https://www.mk.co.kr/news/realestate/12192513",
-        "published": "Sat, 31 Oct 2026 22:42:04 +09:00"
+        "title": "‘10억 로또’인데 아무도 안 받겠다는 이유…미달 줄잇는 우수선수 특공",
+        "url": "https://www.mk.co.kr/news/realestate/12193243",
+        "published": "Mon, 02 Nov 2026 10:31:23 +09:00"
       }
     ]
   }
