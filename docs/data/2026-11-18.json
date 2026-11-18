@@ -1,0 +1,373 @@
+{
+  "generated_at": "2026-11-18T13:37:07+09:00",
+  "indices": [
+    {
+      "name": "코스피",
+      "symbol": "^KS11",
+      "price": 5068.759765625,
+      "prev": 4968.47998046875,
+      "change": 100.27978515625,
+      "change_pct": 2.018319195215699,
+      "unit": "KRW"
+    },
+    {
+      "name": "코스닥",
+      "symbol": "^KQ11",
+      "price": 662.6599731445312,
+      "prev": 650.0599975585938,
+      "change": 12.5999755859375,
+      "change_pct": 1.9382788716824233,
+      "unit": "KRW"
+    },
+    {
+      "name": "나스닥",
+      "symbol": "^IXIC",
+      "price": 24328.3828125,
+      "prev": 24509.759765625,
+      "change": -181.376953125,
+      "change_pct": -0.7400193019410237,
+      "unit": "USD"
+    },
+    {
+      "name": "S&P 500",
+      "symbol": "^GSPC",
+      "price": 7340.52978515625,
+      "prev": 7416.58984375,
+      "change": -76.06005859375,
+      "change_pct": -1.0255395026036962,
+      "unit": "USD"
+    },
+    {
+      "name": "VIX",
+      "symbol": "^VIX",
+      "price": 25.459999084472656,
+      "prev": 22.90999984741211,
+      "change": 2.549999237060547,
+      "change_pct": 11.130507437993685,
+      "unit": ""
+    },
+    {
+      "name": "미국 10Y",
+      "symbol": "^TNX",
+      "price": 5.102999687194824,
+      "prev": 5.120999813079834,
+      "change": -0.018000125885009766,
+      "change_pct": -0.3514963198989899,
+      "unit": "%"
+    },
+    {
+      "name": "달러인덱스",
+      "symbol": "DX-Y.NYB",
+      "price": 103.65699768066406,
+      "prev": 103.55000305175781,
+      "change": 0.10699462890625,
+      "change_pct": 0.10332653380296904,
+      "unit": ""
+    },
+    {
+      "name": "WTI 유가",
+      "symbol": "CL=F",
+      "price": 84.91999816894531,
+      "prev": 85.72000122070312,
+      "change": -0.8000030517578125,
+      "change_pct": -0.9332746621153751,
+      "unit": "USD"
+    },
+    {
+      "name": "금",
+      "symbol": "GC=F",
+      "price": 3792.60009765625,
+      "prev": 3853.0,
+      "change": -60.39990234375,
+      "change_pct": -1.5676071202634312,
+      "unit": "USD"
+    }
+  ],
+  "fx": [
+    {
+      "name": "USD/KRW",
+      "symbol": "KRW=X",
+      "price": 1330.8399658203125,
+      "prev": 1335.6700439453125,
+      "change": -4.830078125,
+      "change_pct": -0.3616221047177848
+    },
+    {
+      "name": "JPY/KRW",
+      "symbol": "JPYKRW=X",
+      "price": 8.331999778747559,
+      "prev": 8.371384620666504,
+      "change": -0.03938484191894531,
+      "change_pct": -0.47046986494582554
+    },
+    {
+      "name": "EUR/KRW",
+      "symbol": "EURKRW=X",
+      "price": 1461.300048828125,
+      "prev": 1467.449951171875,
+      "change": -6.14990234375,
+      "change_pct": -0.4190877064555978
+    }
+  ],
+  "stocks_kr": [
+    {
+      "name": "삼성전자",
+      "symbol": "005930.KS",
+      "price": 193950.0,
+      "prev": 190300.0,
+      "change": 3650.0,
+      "change_pct": 1.9180241723594325,
+      "currency": "KRW"
+    },
+    {
+      "name": "SK하이닉스",
+      "symbol": "000660.KS",
+      "price": 1156000.0,
+      "prev": 1098000.0,
+      "change": 58000.0,
+      "change_pct": 5.2823315118397085,
+      "currency": "KRW"
+    },
+    {
+      "name": "두산에너빌리티",
+      "symbol": "034020.KS",
+      "price": 42900.0,
+      "prev": 42600.0,
+      "change": 300.0,
+      "change_pct": 0.7042253521126761,
+      "currency": "KRW"
+    },
+    {
+      "name": "파마리서치",
+      "symbol": "214450.KQ",
+      "price": 270500.0,
+      "prev": 258000.0,
+      "change": 12500.0,
+      "change_pct": 4.844961240310078,
+      "currency": "KRW"
+    },
+    {
+      "name": "한화에어로스페이스",
+      "symbol": "012450.KS",
+      "price": 637000.0,
+      "prev": 623000.0,
+      "change": 14000.0,
+      "change_pct": 2.247191011235955,
+      "currency": "KRW"
+    }
+  ],
+  "stocks_us": [
+    {
+      "name": "Google (Alphabet)",
+      "symbol": "GOOGL",
+      "price": 280.20001220703125,
+      "prev": 283.7200012207031,
+      "change": -3.519989013671875,
+      "change_pct": -1.240655927860972,
+      "currency": "USD"
+    },
+    {
+      "name": "Meta",
+      "symbol": "META",
+      "price": 618.8699951171875,
+      "prev": 626.4099731445312,
+      "change": -7.53997802734375,
+      "change_pct": -1.2036810316881807,
+      "currency": "USD"
+    },
+    {
+      "name": "Tesla",
+      "symbol": "TSLA",
+      "price": 380.1099853515625,
+      "prev": 379.739990234375,
+      "change": 0.3699951171875,
+      "change_pct": 0.0974338038401327,
+      "currency": "USD"
+    },
+    {
+      "name": "Nvidia",
+      "symbol": "NVDA",
+      "price": 155.4600067138672,
+      "prev": 156.13999938964844,
+      "change": -0.67999267578125,
+      "change_pct": -0.43550190754409035,
+      "currency": "USD"
+    },
+    {
+      "name": "Micron",
+      "symbol": "MU",
+      "price": 712.4199829101562,
+      "prev": 719.02001953125,
+      "change": -6.60003662109375,
+      "change_pct": -0.9179211206659454,
+      "currency": "USD"
+    }
+  ],
+  "stocks_unlisted": [
+    "X-energy (비상장)"
+  ],
+  "crypto": [
+    {
+      "name": "Bitcoin",
+      "usd": 64377.21875,
+      "usd_change_pct": -0.7379828436816844,
+      "krw": 87421000.0,
+      "krw_change_pct": -1.04141905
+    },
+    {
+      "name": "Ethereum",
+      "usd": 1801.0799560546875,
+      "usd_change_pct": -1.0001739187847585,
+      "krw": 2447000.0,
+      "krw_change_pct": -1.33064516
+    }
+  ],
+  "crypto_indicators": {
+    "fear_greed": {
+      "value": 11,
+      "label": "Extreme Fear"
+    },
+    "btc_dominance": 58.42,
+    "eth_dominance": 9.94
+  },
+  "news": {
+    "general": [
+      {
+        "source": "매일경제 증권",
+        "title": "“매우 당혹, 유감스럽다”…고경표 출연 ‘보검매직컬2’가 전한 입장",
+        "url": "https://www.mk.co.kr/news/culture/12212225",
+        "published": "Wed, 18 Nov 2026 12:52:04 +09:00"
+      },
+      {
+        "source": "매일경제 증권",
+        "title": "“내일 수능? 우린 안 봅니다”…시험장 안 가고 무대 택한 K팝 아이돌",
+        "url": "https://www.mk.co.kr/news/culture/12212144",
+        "published": "Wed, 18 Nov 2026 10:00:48 +09:00"
+      },
+      {
+        "source": "매일경제 증권",
+        "title": "여성 출연자 바지 뒤로 휴지 ‘대롱대롱’…‘계약결혼’, 또 편집 논란",
+        "url": "https://www.mk.co.kr/news/culture/12212135",
+        "published": "Wed, 18 Nov 2026 09:54:20 +09:00"
+      },
+      {
+        "source": "연합인포맥스",
+        "title": "김종철 &quot;AI 부정행위 배후까지 추적&quot;…입주권 편법 의혹은 부인",
+        "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4445367",
+        "published": "2026-11-18 13:34:58"
+      },
+      {
+        "source": "연합인포맥스",
+        "title": "[외환] 외국인 달러선물 매도·네고에 1,330원 아래로…8.90원↓",
+        "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4445365",
+        "published": "2026-11-18 13:20:36"
+      },
+      {
+        "source": "연합인포맥스",
+        "title": "루비오 &quot;트럼프-김정은 회동 미정…대화할 준비 돼 있어&quot;(상보)",
+        "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4445366",
+        "published": "2026-11-18 13:20:08"
+      },
+      {
+        "source": "CNBC Top News",
+        "title": "Putin says EU is losing industry, falling behind competition ahead of meeting with Trump, Xi",
+        "url": "https://www.cnbc.com/2026/11/18/putin-apec-eu-trump-xi-meeting.html",
+        "published": "Wed, 18 Nov 2026 04:27:45 GMT"
+      },
+      {
+        "source": "CNBC Top News",
+        "title": "Democrat Mary Peltola wins Alaska Senate election",
+        "url": "https://www.cnbc.com/2026/11/18/alaska-senate-mary-peltola-wins-election.html",
+        "published": "Wed, 18 Nov 2026 04:18:13 GMT"
+      },
+      {
+        "source": "CNBC Top News",
+        "title": "China’s Xi calls for removing trade and investment barriers ahead of his meeting with Trump and Putin",
+        "url": "https://www.cnbc.com/2026/11/18/china-xi-trade-investment-barriers.html",
+        "published": "Wed, 18 Nov 2026 03:30:51 GMT"
+      }
+    ],
+    "crypto": [
+      {
+        "source": "토큰포스트",
+        "title": "AMD MI350P 윈도 서버 2025·2028 지원, 2027년 프리뷰",
+        "url": "https://www.tokenpost.kr/news/ai/440254",
+        "published": "Wed, 18 Nov 2026 04:36:11 +0000"
+      },
+      {
+        "source": "토큰포스트",
+        "title": "엔비디아($NVDA), AI 투자·보증 심사 강화…칩 고객 수요 점검",
+        "url": "https://www.tokenpost.kr/news/ai/440253",
+        "published": "Wed, 18 Nov 2026 04:33:36 +0000"
+      },
+      {
+        "source": "토큰포스트",
+        "title": "하이퍼볼릭, 약 500만달러(약 66억7500만원) B200 옵션 체결",
+        "url": "https://www.tokenpost.kr/news/ai/440252",
+        "published": "Wed, 18 Nov 2026 04:32:13 +0000"
+      },
+      {
+        "source": "블록미디어",
+        "title": "가상자산 과세 유예, 연착륙의 조건…실무적 쟁점 검토–비트플래닛",
+        "url": "https://www.blockmedia.co.kr/archives/1167381?utm_source=general&utm_medium=rss",
+        "published": "Wed, 18 Nov 2026 04:24:33 +0000"
+      },
+      {
+        "source": "블록미디어",
+        "title": "비트코인 약세에도 대형 기관은 ETF 투자 확대…월가·국부펀드 수십억달러 보유",
+        "url": "https://www.blockmedia.co.kr/archives/1167366?utm_source=general&utm_medium=rss",
+        "published": "Wed, 18 Nov 2026 04:20:31 +0000"
+      },
+      {
+        "source": "블록미디어",
+        "title": "엔비디아, 앤트로픽에 100억달러 투자…구글도 100억달러 베팅",
+        "url": "https://www.blockmedia.co.kr/archives/1167283?utm_source=general&utm_medium=rss",
+        "published": "Wed, 18 Nov 2026 04:01:42 +0000"
+      },
+      {
+        "source": "Cointelegraph",
+        "title": "Ledger hardware implant saga reaches Dubai’s Virgin Megastore",
+        "url": "https://cointelegraph.com/news/ledger-hardware-implant-saga-reaches-dubais-virgin-megastore?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published": "Wed, 18 Nov 2026 02:39:52 +0000"
+      },
+      {
+        "source": "Cointelegraph",
+        "title": "Nvidia board rejects Huang comeback despite record $116B quarter",
+        "url": "https://cointelegraph.com/markets/nvidia-board-rejects-huang-comeback-amid-record-116b-quarter?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published": "Wed, 18 Nov 2026 00:16:43 +0000"
+      },
+      {
+        "source": "Cointelegraph",
+        "title": "Here’s what happened in crypto today",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published": "Tue, 17 Nov 2026 22:37:51 +0000"
+      }
+    ],
+    "realestate": [
+      {
+        "source": "매일경제 부동산",
+        "title": "“결혼하면 입주권 포기하라고?”…조합원 부부 걱정 덜었다는데",
+        "url": "https://www.mk.co.kr/news/realestate/12212244",
+        "published": "Wed, 18 Nov 2026 13:11:58 +09:00"
+      },
+      {
+        "source": "매일경제 부동산",
+        "title": "서울시, 구로·양천·강북·성북 모아주택 6319가구 짓는다",
+        "url": "https://www.mk.co.kr/news/realestate/12212180",
+        "published": "Wed, 18 Nov 2026 11:15:00 +09:00"
+      },
+      {
+        "source": "매일경제 부동산",
+        "title": "서울 도심까지 30분대 주파…수도권 집값 지도 바꾼 ‘GTX벨트’ 주목",
+        "url": "https://www.mk.co.kr/news/realestate/12212197",
+        "published": "Wed, 18 Nov 2026 10:56:05 +09:00"
+      },
+      {
+        "source": "매일경제 부동산",
+        "title": "“정비사업 추진 활발”…성남 집값, 원도심이 견인",
+        "url": "https://www.mk.co.kr/news/realestate/12212183",
+        "published": "Wed, 18 Nov 2026 10:48:59 +09:00"
+      }
+    ]
+  }
+}
