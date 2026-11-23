@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-11-22T12:18:47+09:00",
+  "generated_at": "2026-11-23T12:52:08+09:00",
   "indices": [
     {
       "name": "코스피",
       "symbol": "^KS11",
-      "price": 4869.9599609375,
-      "prev": 5137.89013671875,
-      "change": -267.93017578125,
-      "change_pct": -5.214789897246816,
+      "price": 4682.47021484375,
+      "prev": 4869.9599609375,
+      "change": -187.48974609375,
+      "change_pct": -3.8499237693456716,
       "unit": "KRW"
     },
     {
       "name": "코스닥",
       "symbol": "^KQ11",
-      "price": 645.6799926757812,
-      "prev": 684.8099975585938,
-      "change": -39.1300048828125,
-      "change_pct": -5.7139943958637165,
+      "price": 632.6099853515625,
+      "prev": 645.6799926757812,
+      "change": -13.07000732421875,
+      "change_pct": -2.0242236823933406,
       "unit": "KRW"
     },
     {
@@ -58,28 +58,28 @@
     {
       "name": "달러인덱스",
       "symbol": "DX-Y.NYB",
-      "price": 103.80999755859375,
-      "prev": 103.9000015258789,
-      "change": -0.09000396728515625,
-      "change_pct": -0.08662556878089987,
+      "price": 103.76799774169922,
+      "prev": 103.80999755859375,
+      "change": -0.04199981689453125,
+      "change_pct": -0.04045835457305081,
       "unit": ""
     },
     {
       "name": "WTI 유가",
       "symbol": "CL=F",
-      "price": 83.9800033569336,
-      "prev": 83.20999908447266,
-      "change": 0.7700042724609375,
-      "change_pct": 0.9253746916632567,
+      "price": 83.19999694824219,
+      "prev": 83.9800033569336,
+      "change": -0.7800064086914062,
+      "change_pct": -0.9288001637439884,
       "unit": "USD"
     },
     {
       "name": "금",
       "symbol": "GC=F",
-      "price": 3515.39990234375,
-      "prev": 3685.5,
-      "change": -170.10009765625,
-      "change_pct": -4.615387265126849,
+      "price": 3605.10009765625,
+      "prev": 3515.39990234375,
+      "change": 89.7001953125,
+      "change_pct": 2.5516355977792466,
       "unit": "USD"
     }
   ],
@@ -87,72 +87,72 @@
     {
       "name": "USD/KRW",
       "symbol": "KRW=X",
-      "price": 1334.7900390625,
-      "prev": 1330.4000244140625,
-      "change": 4.3900146484375,
-      "change_pct": 0.3299770420833357
+      "price": 1349.280029296875,
+      "prev": 1334.7900390625,
+      "change": 14.489990234375,
+      "change_pct": 1.0855632579152417
     },
     {
       "name": "JPY/KRW",
       "symbol": "JPYKRW=X",
-      "price": 8.357026100158691,
-      "prev": 8.348441123962402,
-      "change": 0.008584976196289062,
-      "change_pct": 0.1028332843079858
+      "price": 8.467000007629395,
+      "prev": 8.357026100158691,
+      "change": 0.10997390747070312,
+      "change_pct": 1.3159454829106592
     },
     {
       "name": "EUR/KRW",
       "symbol": "EURKRW=X",
-      "price": 1462.4100341796875,
-      "prev": 1459.530029296875,
-      "change": 2.8800048828125,
-      "change_pct": 0.19732412660258422
+      "price": 1481.4000244140625,
+      "prev": 1462.4100341796875,
+      "change": 18.989990234375,
+      "change_pct": 1.2985407505786906
     }
   ],
   "stocks_kr": [
     {
       "name": "삼성전자",
       "symbol": "005930.KS",
-      "price": 183100.0,
-      "prev": 196900.0,
-      "change": -13800.0,
-      "change_pct": -7.0086338242762825,
+      "price": 176000.0,
+      "prev": 183100.0,
+      "change": -7100.0,
+      "change_pct": -3.8776624795193886,
       "currency": "KRW"
     },
     {
       "name": "SK하이닉스",
       "symbol": "000660.KS",
-      "price": 1113000.0,
-      "prev": 1183000.0,
-      "change": -70000.0,
-      "change_pct": -5.9171597633136095,
+      "price": 1066000.0,
+      "prev": 1113000.0,
+      "change": -47000.0,
+      "change_pct": -4.22282120395328,
       "currency": "KRW"
     },
     {
       "name": "두산에너빌리티",
       "symbol": "034020.KS",
-      "price": 40750.0,
-      "prev": 43800.0,
-      "change": -3050.0,
-      "change_pct": -6.963470319634703,
+      "price": 39400.0,
+      "prev": 40750.0,
+      "change": -1350.0,
+      "change_pct": -3.3128834355828225,
       "currency": "KRW"
     },
     {
       "name": "파마리서치",
       "symbol": "214450.KQ",
       "price": 275000.0,
-      "prev": 278000.0,
-      "change": -3000.0,
-      "change_pct": -1.079136690647482,
+      "prev": 275000.0,
+      "change": 0.0,
+      "change_pct": 0.0,
       "currency": "KRW"
     },
     {
       "name": "한화에어로스페이스",
       "symbol": "012450.KS",
-      "price": 605000.0,
-      "prev": 631000.0,
-      "change": -26000.0,
-      "change_pct": -4.120443740095087,
+      "price": 581000.0,
+      "prev": 605000.0,
+      "change": -24000.0,
+      "change_pct": -3.9669421487603307,
       "currency": "KRW"
     }
   ],
@@ -209,17 +209,17 @@
   "crypto": [
     {
       "name": "Bitcoin",
-      "usd": 59227.21875,
-      "usd_change_pct": 0.7283090248097015,
-      "krw": 81166000.0,
-      "krw_change_pct": -1.7360774799999998
+      "usd": 61182.87890625,
+      "usd_change_pct": 1.8118072265191947,
+      "krw": 83515000.0,
+      "krw_change_pct": -0.05385352
     },
     {
       "name": "Ethereum",
-      "usd": 1659.050048828125,
-      "usd_change_pct": 2.446408170784693,
-      "krw": 2272000.0,
-      "krw_change_pct": -1.81503889
+      "usd": 1728.5999755859375,
+      "usd_change_pct": 2.7580108877539615,
+      "krw": 2359000.0,
+      "krw_change_pct": 0.29761905
     }
   ],
   "crypto_indicators": {
@@ -227,128 +227,128 @@
       "value": 11,
       "label": "Extreme Fear"
     },
-    "btc_dominance": 57.72,
-    "eth_dominance": 9.84
+    "btc_dominance": 58.84,
+    "eth_dominance": 10.11
   },
   "news": {
     "general": [
       {
         "source": "매일경제 증권",
-        "title": "“창문 내렸더니 입술이 덜덜”…김동현에 보복 운전 시비 걸던 운전자의 최후",
-        "url": "https://www.mk.co.kr/news/culture/12215432",
-        "published": "Sun, 22 Nov 2026 10:26:35 +09:00"
+        "title": "사생활 논란 딛고…‘흑백요리사’ 유명 셰프, 깜짝 재혼 발표",
+        "url": "https://www.mk.co.kr/news/culture/12216020",
+        "published": "Mon, 23 Nov 2026 12:28:06 +09:00"
       },
       {
         "source": "매일경제 증권",
-        "title": "진정 멀리 떠나야 행복할까…결국 집에 돌아와서야 깨달았다 [장주영 기자의 여책저책]",
-        "url": "https://www.mk.co.kr/news/culture/12215430",
-        "published": "Sun, 22 Nov 2026 10:21:23 +09:00"
+        "title": "“형 같은면 하겠냐”…가수 비에 서운함 드러낸 김성주, 무슨일이",
+        "url": "https://www.mk.co.kr/news/culture/12215848",
+        "published": "Mon, 23 Nov 2026 09:41:38 +09:00"
       },
       {
         "source": "매일경제 증권",
-        "title": "“사랑아 용돈 없다”…추성훈, 은퇴전 패배에도 파이트머니 전액 기부",
-        "url": "https://www.mk.co.kr/news/culture/12215384",
-        "published": "Sun, 22 Nov 2026 07:53:46 +09:00"
+        "title": "앨범 200만장 판 에이티즈, ‘빌보드 200’ 통산 네 번째 1위",
+        "url": "https://www.mk.co.kr/news/culture/12215838",
+        "published": "Mon, 23 Nov 2026 09:26:01 +09:00"
       },
       {
         "source": "연합인포맥스",
-        "title": "금융硏 &quot;AI·M&amp;A 자금수요 대응에 SRT 활용 유효&quot;",
-        "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4445883",
-        "published": "2026-11-22 12:00:14"
+        "title": "월가서 연준 '2% 물가 목표' 회의론…&quot;정책적 선택일뿐&quot;",
+        "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4446036",
+        "published": "2026-11-23 12:32:45"
       },
       {
         "source": "연합인포맥스",
-        "title": "보험硏 &quot;손보사, 기본자본 중심 관리 필요…손익 관리·증자 활용&quot;",
-        "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4445886",
-        "published": "2026-11-22 12:00:12"
+        "title": "中, 증시 부양 위해 증거금률 낮추고 수수료 감면",
+        "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4446035",
+        "published": "2026-11-23 12:23:23"
       },
       {
         "source": "연합인포맥스",
-        "title": "이억원 위원장, ECB와 은행감독협력 MOU 최종 합의…연내 체결",
-        "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4445885",
-        "published": "2026-11-22 12:00:10"
+        "title": "이재근 KB금융 회장,이찬진 금감원장 만났다…첫 외부 일정",
+        "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4446034",
+        "published": "2026-11-23 12:08:09"
+      },
+      {
+        "source": "CNBC Top News",
+        "title": "Yemen's Houthis claim attacks on Saudi oil refinery as Trump warns of new strikes next year",
+        "url": "https://www.cnbc.com/2026/11/23/trump-iran-war-hormuz-saudi-.html",
+        "published": "Mon, 23 Nov 2026 03:50:14 GMT"
+      },
+      {
+        "source": "CNBC Top News",
+        "title": "Director of National Intelligence Jay Clayton warns Americans of 'bumps in the road' after tech outages",
+        "url": "https://www.cnbc.com/2026/11/22/jay-clayton-tech-outages-faa-microsoft-thanksgiving.html",
+        "published": "Sun, 22 Nov 2026 17:14:03 GMT"
       },
       {
         "source": "CNBC Top News",
         "title": "Anthropic’s record IPO collides with tech’s worst week on Wall Street since 2020",
         "url": "https://www.cnbc.com/2026/11/21/anthropic-ipo-tech-selloff.html",
         "published": "Sat, 21 Nov 2026 16:40:05 GMT"
-      },
-      {
-        "source": "CNBC Top News",
-        "title": "Trump says there could be a 'positive spin' from the latest FBI database hack",
-        "url": "https://www.cnbc.com/2026/11/21/trump-fbi-database-hack.html",
-        "published": "Sat, 21 Nov 2026 16:57:34 GMT"
-      },
-      {
-        "source": "CNBC Top News",
-        "title": "Tech outages are fueling a new doomsday economy",
-        "url": "https://www.cnbc.com/2026/11/21/emergency-prep-spending-tech-outages.html",
-        "published": "Sat, 21 Nov 2026 15:04:56 GMT"
       }
     ],
     "crypto": [
       {
         "source": "블록미디어",
-        "title": "중앙은행들 “금고에 둬야 내 자산”…비트코인은 아직 ‘관망’",
-        "url": "https://www.blockmedia.co.kr/archives/1169093?utm_source=general&utm_medium=rss",
-        "published": "Sun, 22 Nov 2026 03:11:57 +0000"
+        "title": "“대체 바닥은 어디” 코스피, 2거래일 연속 매도 사이드카…4600선 붕괴",
+        "url": "https://www.blockmedia.co.kr/archives/1169283?utm_source=general&utm_medium=rss",
+        "published": "Mon, 23 Nov 2026 03:29:15 +0000"
       },
       {
         "source": "블록미디어",
-        "title": "월가 강세론자 야데니 “S&P500 약세장 아닌 조정”…변수는 연준",
-        "url": "https://www.blockmedia.co.kr/archives/1169091?utm_source=general&utm_medium=rss",
-        "published": "Sun, 22 Nov 2026 02:20:11 +0000"
+        "title": "[K코인마켓] 코인값 떨어져도 거래는 늘었다…업비트 점유율 50% 턱걸이, 빗썸 37% ‘추격’",
+        "url": "https://www.blockmedia.co.kr/archives/1169263?utm_source=general&utm_medium=rss",
+        "published": "Mon, 23 Nov 2026 03:01:40 +0000"
       },
       {
         "source": "블록미디어",
-        "title": "크라켄, 캐나다달러 시장서 비트코인 ‘헐값’ 체결…”거래 유지”(종합)",
-        "url": "https://www.blockmedia.co.kr/archives/1169088?utm_source=general&utm_medium=rss",
-        "published": "Sun, 22 Nov 2026 01:35:50 +0000"
+        "title": "나스닥 선물 반등에도 아시아 증시 급락…각국 정부 ‘긴급 방어’ 나서",
+        "url": "https://www.blockmedia.co.kr/archives/1169250?utm_source=general&utm_medium=rss",
+        "published": "Mon, 23 Nov 2026 02:30:56 +0000"
       },
       {
         "source": "Cointelegraph",
-        "title": "Here’s what happened in crypto today",
-        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "published": "Sat, 21 Nov 2026 11:18:52 +0000"
+        "title": "Trump renews call for Nvidia to rehire Jensen Huang as CEO",
+        "url": "https://cointelegraph.com/news/trump-renews-call-for-nvidia-to-rehire-jensen-huang-as-ceo?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published": "Mon, 23 Nov 2026 03:37:20 +0000"
       },
       {
         "source": "Cointelegraph",
-        "title": "ECB seeks industry partners for tokenized deposits, securities experiments",
-        "url": "https://cointelegraph.com/news/ecb-tokenized-deposits-securities-experiments-appia?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "published": "Sat, 21 Nov 2026 09:48:56 +0000"
+        "title": "Billionaire Bill Ackman warns Fed will make a rate ‘mistake’ in December",
+        "url": "https://cointelegraph.com/markets/billionaire-bill-ackman-warns-fed-rate-hikes-could-trigger-recession?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published": "Mon, 23 Nov 2026 02:47:39 +0000"
       },
       {
         "source": "Cointelegraph",
-        "title": "US lawmakers propose up to 30% rewards for prediction market whistleblowers",
-        "url": "https://cointelegraph.com/news/us-prediction-market-whistleblower-rewards-30-percent?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "published": "Sat, 21 Nov 2026 07:51:47 +0000"
+        "title": "Half of wallets on Trump’s dinner list got tokens from non-US exchanges",
+        "url": "https://cointelegraph.com/news/half-wallets-trumps-dinner-list-got-tokens-from-non-us-exchanges?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "published": "Mon, 23 Nov 2026 00:53:49 +0000"
       }
     ],
     "realestate": [
       {
         "source": "매일경제 부동산",
-        "title": "“서울만 문제가 아니다” 광명·수원에도 억대 재초환 통보",
-        "url": "https://www.mk.co.kr/news/realestate/12215457",
-        "published": "Sun, 22 Nov 2026 11:33:26 +09:00"
+        "title": "쌍용건설, 2381억원 규모 부산 거제2구역 재건축 수주",
+        "url": "https://www.mk.co.kr/news/realestate/12215914",
+        "published": "Mon, 23 Nov 2026 11:03:17 +09:00"
       },
       {
         "source": "매일경제 부동산",
-        "title": "“나만 빼고 다들 돈 벌었던 거야?”…서울 ‘내 집 마련 기간’ 2년 빨라진 이유가",
-        "url": "https://www.mk.co.kr/news/economy/12215444",
-        "published": "Sun, 22 Nov 2026 11:07:00 +09:00"
+        "title": "집값 부담 커지자 개발 호재 갖춘 ‘저평가 지역’ 눈길",
+        "url": "https://www.mk.co.kr/news/realestate/12215906",
+        "published": "Mon, 23 Nov 2026 10:53:22 +09:00"
       },
       {
         "source": "매일경제 부동산",
-        "title": "“내 집에 혼자 삽니다, 돈은 없습니다”…1인가구 주택 소유 비중 ‘역대 최대’",
-        "url": "https://www.mk.co.kr/news/realestate/12215423",
-        "published": "Sun, 22 Nov 2026 10:02:07 +09:00"
+        "title": "GH, 파주·안성·동두천 산단 16필지 공급…15% 할인도",
+        "url": "https://www.mk.co.kr/news/realestate/12215897",
+        "published": "Mon, 23 Nov 2026 10:41:43 +09:00"
       },
       {
         "source": "매일경제 부동산",
-        "title": "송파구 위례24단지(꿈에그린) 84.93㎡ 22억 7천만원… 최근 3년 신고가 [MAI부동산]",
-        "url": "https://www.mk.co.kr/news/realestate/12215418",
-        "published": "Sun, 22 Nov 2026 09:37:38 +09:00"
+        "title": "강남권 첫 재초환 부담금 ‘산넘어 산’…실제 징수까지 장기전 되나",
+        "url": "https://www.mk.co.kr/news/realestate/12215892",
+        "published": "Mon, 23 Nov 2026 10:40:00 +09:00"
       }
     ]
   }
